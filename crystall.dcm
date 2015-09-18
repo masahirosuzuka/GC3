@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4_pin_crystall
+D 4 pin crystal
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+$CMP Crystal_Small
+D 4 pin crystal
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+#End Doc Library

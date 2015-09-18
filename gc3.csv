@@ -1,0 +1,67 @@
+quantity,value,footprint,references
+1,13k, 1%,SMD_Packages:SMD-0603_r,R73
+1,DIODE,LEDs:LED-0805,D1
+1,10k, 1%,SMD_Packages:SMD-0603_r,R71
+1,1k,SMD_Packages:SMD-0603_r,R4
+1,2.2uF, 1.5A,ELL4LG2R2NA:ELL4LG2R2NA,L2
+1,MENU,Pin_Headers:Pin_Header_Straight_1x02,SW5
+1,1uF, 6.3V,SMD_Packages:SMD-0603_c,C54
+2,TPS62560,Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5,"U1,U3"
+1,LPS3015 22uH,LPS3015:LPS3015,L1
+3,1uF,SMD_Packages:SMD-0603_c,"C2,C9,C31"
+2,33pF,SMD_Packages:SMD-0603_c,"C59,C60"
+2,100nF, 6.3V,SMD_Packages:SMD-0603_c,"C46,C47"
+2,240,SMD_Packages:SMD-0603_r,"R26,R66"
+3,10uF,SMD_Packages:SMD-0603_c,"C6,C21,C26"
+2,CONN_01X04,Pin_Headers:Pin_Header_Straight_1x04,"P9,P10"
+1,1R,SMD_Packages:SMD-0603_r,R7
+2,4.7uF,SMD_Packages:SMD-0603_c,"C3,C10"
+1,RESET,Pin_Headers:Pin_Header_Straight_1x02,SW2
+2,200k, 1%,SMD_Packages:SMD-0603_r,"R9,R17"
+1,LPS3015 2.2uH,LPS3015:LPS3015,L4
+8,24,SMD_Packages:SMD-0603_r,"R27,R28,R29,R30,R31,R32,R33,R34"
+1,FUSE,Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering,F1
+10,100nF,Capacitors_SMD:C_0603_HandSoldering,"C83,C84,C85,C86,C88,C89,C90,C91,C92,C93"
+1,R,SMD_Packages:SMD-0603_r,R8
+1,11k, 1%,SMD_Packages:SMD-0603_r,R72
+1,360k,SMD_Packages:SMD-0603_r,R11
+1,NA/10uF, 6.3V,SMD_Packages:SMD-0603_c,C20
+1,22k,SMD_Packages:SMD-0603_r,R13
+1,ENTER,Pin_Headers:Pin_Header_Straight_1x02,SW6
+1,1,SMD_Packages:SMD-0603_r,R6
+1,PWR_ON,Pin_Headers:Pin_Header_Straight_1x02,SW1
+1,h5tq2g63bfr,MT41J256M16:BGA-96_pitch0.8mm_dia0.4mm,U5
+8,1nF,SMD_Packages:SMD-0603_c,"C7,C24,C25,C56,C57,C63,C64,C79"
+1,240, 1%,SMD_Packages:SMD-0603_r,R5
+1,HOME,Pin_Headers:Pin_Header_Straight_1x02,SW7
+1,8.2k, 1%,SMD_Packages:SMD-0603_r,R70
+1,uSD,Pin_Headers:Pin_Header_Straight_2x08,J2
+1,6.8k, 1%,SMD_Packages:SMD-0603_r,R56
+21,10uF, 6.3V,SMD_Packages:SMD-0603_c,"C4,C5,C8,C12,C13,C15,C16,C17,C18,C19,C22,C23,C36,C39,C41,C48,C50,C53,C55,C58,C62"
+4,22uF, 6.3V,SMD_Packages:SMD-0603_c,"C34,C43,C51,C65"
+1,24.000MHz, HC-49SM, SMD, 20ppm, 20pF,Crystals:Crystal_HC49-U_Vertical,X1
+2,2.2k,SMD_Packages:SMD-0603_r,"R3,R10"
+1,CONN_02X20,Pin_Headers:Pin_Header_Straight_2x20,P7
+1,510R,SMD_Packages:SMD-0603_r,R1
+1,JACK_2P,Connect:JACK_ALIM,J1
+8,100k,SMD_Packages:SMD-0603_r,"R12,R16,R20,R21,R22,R23,R24,R25"
+9,100uF, 6.3V,SMD_Packages:SMD-0603_c,"C35,C38,C40,C42,C44,C45,C49,C52,C61"
+8,TESTPOINT,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,"P1,P2,P3,P4,P5,P6,P15,P16"
+4,2k, 1%,SMD_Packages:SMD-0603_r,"R19,R68,R69,R74"
+4,CONN_01X01,Connect:1pin,"P11,P12,P13,P14"
+15,100nF,SMD_Packages:SMD-0603_c,"C29,C30,C32,C33,C37,C66,C68,C69,C70,C71,C72,C73,C74,C80,C81"
+1,540k,SMD_Packages:SMD-0603_r,R2
+1,DIODE,SMD_Packages:SOD-523,D2
+1,VOL+,Pin_Headers:Pin_Header_Straight_1x02,SW3
+1,470uF, 25V,Capacitors_ThroughHole:Capacitor10x13RM5,C1
+1,CONN_01X06,Pin_Headers:Pin_Header_Straight_1x06,P8
+1,47k,SMD_Packages:SMD-0603_r,R18
+2,22pF,SMD_Packages:SMD-0603_c,"C11,C14"
+10,R_PACK4,EXB28V:EXB28V,"RP1,RP2,RP3,RP4,RP5,RP6,RP7,RP8,RP9,RP10"
+1,VOL-,Pin_Headers:Pin_Header_Straight_1x02,SW4
+1,a13,Housings_QFP:LQFP-176_20x20mm_Pitch0.4mm,U4
+2,TVS,WBFBP-02C:WBFBP-02C,"D3,D4"
+2,22uF, 6.3V,Capacitors_SMD:C_0603_HandSoldering,"C82,C87"
+1,axp209,Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm,U2
+1,JUMPER,SMD_Packages:SMD-0603_r,JP1
+1,2.2uH, 1.5A,ELL4LG2R2NA:ELL4LG2R2NA,L3
