@@ -1,4 +1,4 @@
-update=2015/09/10 21:44:06
+update=2015/10/06 22:29:25
 version=1
 last_client=kicad
 [cvpcb]
@@ -80,3 +80,4 @@ LibName45=DM3AT-SF-PEJM5
 LibName46=tps62290
 LibName47=tps2552
 LibName48=crystall
+LibName49=resistorarray
