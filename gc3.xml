@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>C:/Users/Masahiro/work/kicad/gc3/gc3.sch</source>
-    <date>2015/08/14 21:20:02</date>
-    <tool>Eeschema (2015-06-05 BZR 5717)-product</tool>
+    <date>2015/12/21 21:23:54</date>
+    <tool>Eeschema 4.0.0-rc1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -32,1359 +32,1510 @@
     </sheet>
   </design>
   <components>
-    <comp ref="C8">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5443D2B0</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>1R</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5443D2C9</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>1R</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5443D2DD</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5443D2F1</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5443D305</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>1uF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5443D388</tstamp>
-    </comp>
-    <comp ref="R9">
-      <value>200k/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5443D39C</tstamp>
-    </comp>
-    <comp ref="C9">
-      <value>1uF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5443D3B0</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5443D3C4</tstamp>
-    </comp>
-    <comp ref="R10">
-      <value>2.2k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5443D3D8</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>2.2k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5443D3EC</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>240R/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5443D29C</tstamp>
-    </comp>
     <comp ref="J1">
-      <value>JACK_2P</value>
-      <libsource lib="gc3-cache" part="JACK_2P-RESCUE-gc3"/>
+      <value>JACK</value>
+      <footprint>Connect:BARREL_JACK</footprint>
+      <libsource lib="gc3-rescue" part="JACK_2P-RESCUE-gc3"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>544CEE2D</tstamp>
+      <tstamp>56AF3547</tstamp>
     </comp>
     <comp ref="C1">
-      <value>470uF/25V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="CP2"/>
+      <value>120uF/16V</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L11_P2</footprint>
+      <libsource lib="device" part="CP"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>544CF0D5</tstamp>
+      <tstamp>56AF4055</tstamp>
     </comp>
-    <comp ref="R1">
-      <value>510R</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
+    <comp ref="R15">
+      <value>90R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D2982</tstamp>
+      <tstamp>56AF4711</tstamp>
     </comp>
-    <comp ref="R4">
-      <value>1k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
+    <comp ref="D2">
+      <value>POWER</value>
+      <footprint>LEDs:LED-0805</footprint>
+      <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D3048</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>1nF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D305C</tstamp>
-    </comp>
-    <comp ref="SW1">
-      <value>PWR_ON</value>
-      <libsource lib="device" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D307F</tstamp>
-    </comp>
-    <comp ref="SW2">
-      <value>RESET</value>
-      <libsource lib="device" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D37FB</tstamp>
-    </comp>
-    <comp ref="C15">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D416E</tstamp>
-    </comp>
-    <comp ref="C12">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D4742</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D4756</tstamp>
-    </comp>
-    <comp ref="L2">
-      <value>2.2uH/1.5A</value>
-      <libsource lib="device" part="INDUCTOR"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D52C3</tstamp>
-    </comp>
-    <comp ref="L3">
-      <value>2.2uH/1.5A</value>
-      <libsource lib="device" part="INDUCTOR"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D52D7</tstamp>
-    </comp>
-    <comp ref="C23">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D175A</tstamp>
-    </comp>
-    <comp ref="C24">
-      <value>1nF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D176E</tstamp>
-    </comp>
-    <comp ref="C22">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D1782</tstamp>
-    </comp>
-    <comp ref="C25">
-      <value>1nF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D1796</tstamp>
-    </comp>
-    <comp ref="P4">
-      <value>TESTPOINT</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
-      <libsource lib="conn" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D24F9</tstamp>
-    </comp>
-    <comp ref="C18">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D2850</tstamp>
-    </comp>
-    <comp ref="C19">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D2864</tstamp>
-    </comp>
-    <comp ref="C16">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D2878</tstamp>
-    </comp>
-    <comp ref="C17">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D288C</tstamp>
-    </comp>
-    <comp ref="C20">
-      <value>NA or 10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D28A0</tstamp>
-    </comp>
-    <comp ref="P2">
-      <value>TESTPOINT</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
-      <libsource lib="conn" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D3846</tstamp>
-    </comp>
-    <comp ref="P3">
-      <value>TESTPOINT</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
-      <libsource lib="conn" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D41AC</tstamp>
-    </comp>
-    <comp ref="P11">
-      <value>CONN_01X01</value>
-      <libsource lib="conn" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54B9E8E9</tstamp>
-    </comp>
-    <comp ref="P12">
-      <value>CONN_01X01</value>
-      <libsource lib="conn" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54B9ED60</tstamp>
-    </comp>
-    <comp ref="P14">
-      <value>CONN_01X01</value>
-      <libsource lib="conn" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54B9EE31</tstamp>
-    </comp>
-    <comp ref="P13">
-      <value>CONN_01X01</value>
-      <libsource lib="conn" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54B9EEBE</tstamp>
+      <tstamp>56AF4B4B</tstamp>
     </comp>
     <comp ref="P16">
-      <value>TESTPOINT</value>
+      <value>TEESTPOINT</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>54DDD248</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>DIODE</value>
-      <libsource lib="gc3-cache" part="DIODE"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54E218AF</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>47k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54E21A52</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>axp209</value>
-      <libsource lib="axp209" part="axp209"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>546821E7</tstamp>
-    </comp>
-    <comp ref="P5">
-      <value>TESTPOINT</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
-      <libsource lib="conn" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>544D250D</tstamp>
-    </comp>
-    <comp ref="F1">
-      <value>FUSE</value>
-      <libsource lib="device" part="FUSE"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>550CB23A</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>4.7uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>550D2F5F</tstamp>
-    </comp>
-    <comp ref="L1">
-      <value>2.2uH</value>
-      <libsource lib="device" part="INDUCTOR"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>550D50ED</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>540k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>550D663B</tstamp>
-    </comp>
-    <comp ref="R11">
-      <value>360k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>550D6688</tstamp>
-    </comp>
-    <comp ref="C11">
-      <value>22pF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>550D8442</tstamp>
-    </comp>
-    <comp ref="C21">
-      <value>10uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>550D87A8</tstamp>
-    </comp>
-    <comp ref="P6">
-      <value>TESTPOINT</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
-      <libsource lib="conn" part="CONN_01X01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>550DC2D5</tstamp>
-    </comp>
-    <comp ref="C37">
-      <value>100uF/25V</value>
-      <libsource lib="gc3-cache" part="CP2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5580E273</tstamp>
+      <tstamp>56AF5D00</tstamp>
     </comp>
     <comp ref="U1">
       <value>TPS62290</value>
+      <footprint>TPS62290:TPS62290</footprint>
       <libsource lib="tps62290" part="TPS62290"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A00B7A</tstamp>
+      <tstamp>56B0B02E</tstamp>
     </comp>
-    <comp ref="C10">
+    <comp ref="C3">
       <value>4.7uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A079B0</tstamp>
+      <tstamp>56B0BC06</tstamp>
     </comp>
-    <comp ref="L4">
+    <comp ref="L1">
       <value>2.2uH</value>
-      <libsource lib="device" part="INDUCTOR"/>
+      <footprint>Inductors_NEOSID:Neosid_Inductor_SMS-ME3015</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A079B6</tstamp>
+      <tstamp>56B0CB6C</tstamp>
     </comp>
-    <comp ref="R12">
-      <value>100K</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
+    <comp ref="R2">
+      <value>540k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A079BD</tstamp>
+      <tstamp>56B0D2BB</tstamp>
     </comp>
-    <comp ref="R13">
-      <value>22K</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
+    <comp ref="R11">
+      <value>360k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A079C3</tstamp>
+      <tstamp>56B0D3BE</tstamp>
     </comp>
-    <comp ref="C14">
+    <comp ref="C11">
       <value>22pF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A079D0</tstamp>
+      <tstamp>56B0D5DB</tstamp>
     </comp>
-    <comp ref="C26">
+    <comp ref="C21">
       <value>10uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A079D6</tstamp>
+      <tstamp>56B0D8B0</tstamp>
     </comp>
-    <comp ref="P15">
+    <comp ref="C37">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L11_P2</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B0DD0B</tstamp>
+    </comp>
+    <comp ref="P6">
       <value>TESTPOINT</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A079E3</tstamp>
-    </comp>
-    <comp ref="C27">
-      <value>100uF/25V</value>
-      <libsource lib="gc3-cache" part="CP2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A07A01</tstamp>
+      <tstamp>56B0EB2E</tstamp>
     </comp>
     <comp ref="U3">
       <value>TPS62290</value>
+      <footprint>TPS62290:TPS62290</footprint>
       <libsource lib="tps62290" part="TPS62290"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A07A0D</tstamp>
+      <tstamp>56B2F224</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B2F22A</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>2.2uH</value>
+      <footprint>Inductors_NEOSID:Neosid_Inductor_SMS-ME3015</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B2F23C</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B2F242</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B2F248</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B2F24E</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B2F254</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L11_P2</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B2F25A</tstamp>
+    </comp>
+    <comp ref="P15">
+      <value>TESTPOINT</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B2F266</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>GND</value>
+      <footprint>SMD_Packages:1Pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561562C6</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>GND</value>
+      <footprint>SMD_Packages:1Pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56157507</tstamp>
+    </comp>
+    <comp ref="P13">
+      <value>GND</value>
+      <footprint>SMD_Packages:1Pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56157CF5</tstamp>
+    </comp>
+    <comp ref="P14">
+      <value>GND</value>
+      <footprint>SMD_Packages:1Pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5615844F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>axp209</value>
+      <footprint>AXP209:TQFP-48-1EP_6x6mm_Pitch0.4mm</footprint>
+      <libsource lib="axp209" part="axp209"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561627DB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>240R/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5616C9EA</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5617697A</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5618700E</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5618DD43</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5619FEF6</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5619FFEF</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561A0186</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561A0293</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561A0C6B</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>2.2uH</value>
+      <footprint>ELL4LG2R2NA:ELL4LG2R2NA</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561B5AED</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>2.2uH</value>
+      <footprint>ELL4LG2R2NA:ELL4LG2R2NA</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561B5F0B</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561D72C4</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561D7598</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561D77EF</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>1nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561D7BD8</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>TESTPOINT</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561DED01</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>TESTPOINT</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561DF0C9</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>TESTPOINT</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5620514B</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>TESTPOINT</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5620F8B2</tstamp>
     </comp>
     <comp ref="JP1">
       <value>JUMPER</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5586CE0A</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>2.2k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55CDFA70</tstamp>
+      <tstamp>5621CFB3</tstamp>
     </comp>
-    <comp ref="D2">
-      <value>LED</value>
-      <libsource lib="device" part="LED"/>
+    <comp ref="R6">
+      <value>1R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>55CE113D</tstamp>
+      <tstamp>56227B24</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56228011</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56243407</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562486BE</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5624DDE7</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>TESTPOINT</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56253CAC</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562637BD</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>200k/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562649D6</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56270406</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56270D27</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56284B89</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5628639F</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>PWR_ON</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_FSMSM</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5628672D</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562916C9</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DIODE</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5629180E</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2.2k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5629D958</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2.2k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562A04BA</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>RESET</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_FSMSM</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562A59BE</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>510R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562AE677</tstamp>
+    </comp>
+    <comp ref="C67">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DCD488</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>FB/2A</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DD0348</tstamp>
+    </comp>
+    <comp ref="C78">
+      <value>120uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DD1060</tstamp>
+    </comp>
+    <comp ref="P18">
+      <value>USB_A</value>
+      <footprint>Connect:USB_A_Vertical</footprint>
+      <libsource lib="conn" part="USB_A"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DD1D6D</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>FB/2A</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DD3DF3</tstamp>
+    </comp>
+    <comp ref="L8">
+      <value>FB/2A</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DE471D</tstamp>
+    </comp>
+    <comp ref="P19">
+      <value>USB_OTG</value>
+      <footprint>Connect:USB_Micro-B</footprint>
+      <libsource lib="conn" part="USB_OTG"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DEEA79</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TPS2552</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23-6</footprint>
+      <libsource lib="tps2552" part="TPS2552"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DB53BA</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DB666A</tstamp>
+    </comp>
+    <comp ref="C95">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DC18D8</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DC7032</tstamp>
+    </comp>
+    <comp ref="C76">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DD19E4</tstamp>
+    </comp>
+    <comp ref="L9">
+      <value>FB/2A</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DD19EA</tstamp>
+    </comp>
+    <comp ref="C97">
+      <value>120uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L11_P2</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DD19F0</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>TPS2552</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23-6</footprint>
+      <libsource lib="tps2552" part="TPS2552"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DD1A21</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DD1A27</tstamp>
+    </comp>
+    <comp ref="C96">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DD1A45</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DE4562</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55DE9B28</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>47K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55ED93BD</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55ED947C</tstamp>
+    </comp>
+    <comp ref="C75">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>55ED954A</tstamp>
+    </comp>
+    <comp ref="RA1">
+      <value>22R</value>
+      <footprint>EXB28V:EXB28V</footprint>
+      <libsource lib="resistorarray" part="RA"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>561016B3</tstamp>
+    </comp>
+    <comp ref="RA2">
+      <value>22R</value>
+      <footprint>EXB28V:EXB28V</footprint>
+      <libsource lib="resistorarray" part="RA"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5610444F</tstamp>
+    </comp>
+    <comp ref="RA3">
+      <value>22R</value>
+      <footprint>EXB28V:EXB28V</footprint>
+      <libsource lib="resistorarray" part="RA"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>561047DB</tstamp>
+    </comp>
+    <comp ref="RA4">
+      <value>22R</value>
+      <footprint>EXB28V:EXB28V</footprint>
+      <libsource lib="resistorarray" part="RA"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5610499F</tstamp>
+    </comp>
+    <comp ref="RA5">
+      <value>22R</value>
+      <footprint>EXB28V:EXB28V</footprint>
+      <libsource lib="resistorarray" part="RA"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56104BBB</tstamp>
+    </comp>
+    <comp ref="RA6">
+      <value>22R</value>
+      <footprint>EXB28V:EXB28V</footprint>
+      <libsource lib="resistorarray" part="RA"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5610724A</tstamp>
+    </comp>
+    <comp ref="RA7">
+      <value>22R</value>
+      <footprint>EXB28V:EXB28V</footprint>
+      <libsource lib="resistorarray" part="RA"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56107262</tstamp>
+    </comp>
+    <comp ref="RA8">
+      <value>22R</value>
+      <footprint>EXB28V:EXB28V</footprint>
+      <libsource lib="resistorarray" part="RA"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5610727A</tstamp>
+    </comp>
+    <comp ref="RA9">
+      <value>22R</value>
+      <footprint>EXB28V:EXB28V</footprint>
+      <libsource lib="resistorarray" part="RA"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56107292</tstamp>
+    </comp>
+    <comp ref="RA10">
+      <value>22R</value>
+      <footprint>EXB28V:EXB28V</footprint>
+      <libsource lib="resistorarray" part="RA"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>561072AA</tstamp>
     </comp>
     <comp ref="U4">
       <value>a13</value>
+      <footprint>A13:LQFP-176_20x20mm_Pitch0.4mm</footprint>
       <libsource lib="a13" part="a13"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>544BA778</tstamp>
+      <tstamp>56176BF7</tstamp>
     </comp>
-    <comp ref="C65">
-      <value>22uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+    <comp ref="C66">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54566340</tstamp>
+      <tstamp>5618999D</tstamp>
     </comp>
-    <comp ref="C62">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+    <comp ref="R66">
+      <value>240R/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54566354</tstamp>
+      <tstamp>5618E503</tstamp>
     </comp>
-    <comp ref="C61">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+    <comp ref="R41">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54566368</tstamp>
+      <tstamp>5635592E</tstamp>
     </comp>
-    <comp ref="C58">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+    <comp ref="C63">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456637C</tstamp>
+      <tstamp>563635FB</tstamp>
     </comp>
-    <comp ref="C52">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+    <comp ref="C56">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54566390</tstamp>
+      <tstamp>563637CE</tstamp>
     </comp>
-    <comp ref="C51">
-      <value>22uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+    <comp ref="C64">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545663A4</tstamp>
+      <tstamp>56363983</tstamp>
     </comp>
-    <comp ref="X1">
-      <value>24.000MHz</value>
-      <libsource lib="gc3-cache" part="CRYSTAL"/>
+    <comp ref="C57">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54566941</tstamp>
+      <tstamp>56363B42</tstamp>
     </comp>
-    <comp ref="C49">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+    <comp ref="Y1">
+      <value>24MHz/20pF/20ppm</value>
+      <footprint>ECX32:ecx32</footprint>
+      <libsource lib="crystall" part="4_pin_crystall"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545675D4</tstamp>
-    </comp>
-    <comp ref="C50">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545675E8</tstamp>
-    </comp>
-    <comp ref="C48">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545675FC</tstamp>
-    </comp>
-    <comp ref="C44">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456763D</tstamp>
-    </comp>
-    <comp ref="C43">
-      <value>22uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54567651</tstamp>
-    </comp>
-    <comp ref="C42">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54568258</tstamp>
-    </comp>
-    <comp ref="C41">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54568285</tstamp>
-    </comp>
-    <comp ref="C40">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54568454</tstamp>
-    </comp>
-    <comp ref="C39">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54568468</tstamp>
-    </comp>
-    <comp ref="C38">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456847C</tstamp>
-    </comp>
-    <comp ref="C36">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54568490</tstamp>
-    </comp>
-    <comp ref="C35">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545684A4</tstamp>
-    </comp>
-    <comp ref="C34">
-      <value>22uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54568CBD</tstamp>
-    </comp>
-    <comp ref="C33">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545694C2</tstamp>
-    </comp>
-    <comp ref="C32">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545694D6</tstamp>
-    </comp>
-    <comp ref="C30">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545694EA</tstamp>
-    </comp>
-    <comp ref="C29">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545694FE</tstamp>
+      <tstamp>56418EB8</tstamp>
     </comp>
     <comp ref="C59">
-      <value>33pF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+      <value>30pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456C20E</tstamp>
+      <tstamp>5641C26C</tstamp>
     </comp>
     <comp ref="C60">
-      <value>33pF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+      <value>30pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456C222</tstamp>
+      <tstamp>5641D0CE</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5642CA83</tstamp>
     </comp>
     <comp ref="R18">
       <value>47k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456D13D</tstamp>
+      <tstamp>5642CC66</tstamp>
     </comp>
-    <comp ref="C53">
-      <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+    <comp ref="C47">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456E0CA</tstamp>
-    </comp>
-    <comp ref="C45">
-      <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456E0DE</tstamp>
-    </comp>
-    <comp ref="C54">
-      <value>1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456E71D</tstamp>
+      <tstamp>564471FA</tstamp>
     </comp>
     <comp ref="C46">
       <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456EB2E</tstamp>
+      <tstamp>5644FBA8</tstamp>
     </comp>
     <comp ref="C55">
       <value>10uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456EECD</tstamp>
+      <tstamp>56450167</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56450511</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564506D2</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564508CF</tstamp>
     </comp>
     <comp ref="R17">
       <value>200k/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456EEE1</tstamp>
+      <tstamp>56450AC8</tstamp>
     </comp>
-    <comp ref="C47">
+    <comp ref="C29">
       <value>0.1uF/6.3V</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5456F93F</tstamp>
+      <tstamp>564B7048</tstamp>
     </comp>
-    <comp ref="C63">
-      <value>1nF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+    <comp ref="C30">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5457125B</tstamp>
+      <tstamp>564B7851</tstamp>
     </comp>
-    <comp ref="C64">
-      <value>1nF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+    <comp ref="C32">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5457126F</tstamp>
+      <tstamp>564B7D7E</tstamp>
     </comp>
-    <comp ref="C56">
-      <value>1nF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+    <comp ref="C33">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54571283</tstamp>
+      <tstamp>564B7F07</tstamp>
     </comp>
-    <comp ref="C57">
-      <value>1nF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
+    <comp ref="C34">
+      <value>22uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54571297</tstamp>
+      <tstamp>564CB71D</tstamp>
     </comp>
-    <comp ref="P7">
-      <value>CONN_02X20</value>
-      <footprint>Pin_Headers:Pin_Header_Angled_2x20</footprint>
-      <libsource lib="conn" part="CONN_02X20"/>
+    <comp ref="C35">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5457951C</tstamp>
+      <tstamp>564CB8B0</tstamp>
     </comp>
-    <comp ref="P8">
-      <value>JTAG</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
-      <libsource lib="conn" part="CONN_01X06"/>
+    <comp ref="C36">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5457980C</tstamp>
+      <tstamp>564CBDEF</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564CBF8E</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564CC131</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564CC2DC</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564CC4A7</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564CC64A</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>22uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564EFF70</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564F071D</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564F0D44</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564F0EEB</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564F10A6</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>22uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564F1835</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564F183B</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564F1841</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>0.1uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564F1847</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>10uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>564F184D</tstamp>
+    </comp>
+    <comp ref="C65">
+      <value>22uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5652E03B</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>24R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5654E467</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>24R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5654E612</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>24R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5654E7C5</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>24R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5654E958</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>24R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5654EAE1</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>24R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5654EC78</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>24R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5654EE35</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>24R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5654EFCC</tstamp>
     </comp>
     <comp ref="P9">
       <value>UART0</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
       <libsource lib="conn" part="CONN_01X04"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54579820</tstamp>
+      <tstamp>5659FD79</tstamp>
     </comp>
     <comp ref="P10">
       <value>UART1</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
       <libsource lib="conn" part="CONN_01X04"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54579834</tstamp>
+      <tstamp>565A729F</tstamp>
     </comp>
-    <comp ref="R66">
-      <value>240R/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
+    <comp ref="P8">
+      <value>JTAG</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5457BBCD</tstamp>
-    </comp>
-    <comp ref="C66">
-      <value>0.1uF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5457BBE1</tstamp>
-    </comp>
-    <comp ref="R68">
-      <value>2k/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5459307C</tstamp>
-    </comp>
-    <comp ref="C68">
-      <value>0.1uF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54593090</tstamp>
-    </comp>
-    <comp ref="R69">
-      <value>2k/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545930A4</tstamp>
-    </comp>
-    <comp ref="C69">
-      <value>0.1uF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545930B8</tstamp>
-    </comp>
-    <comp ref="C70">
-      <value>0.1uF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54596DA0</tstamp>
-    </comp>
-    <comp ref="C71">
-      <value>0.1uF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54596DB4</tstamp>
-    </comp>
-    <comp ref="C72">
-      <value>0.1uF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54596DC8</tstamp>
-    </comp>
-    <comp ref="C73">
-      <value>0.1uF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54596DDC</tstamp>
-    </comp>
-    <comp ref="C74">
-      <value>0.1uF</value>
-      <footprint>SMD_Packages:SMD-0603_c</footprint>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54596DF0</tstamp>
-    </comp>
-    <comp ref="SW3">
-      <value>VOL+</value>
-      <libsource lib="device" part="SW_PUSH"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545EA04B</tstamp>
-    </comp>
-    <comp ref="R16">
-      <value>100k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>545EA05F</tstamp>
-    </comp>
-    <comp ref="C79">
-      <value>1nF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE4C1F</tstamp>
-    </comp>
-    <comp ref="R56">
-      <value>6.8k/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE4C8C</tstamp>
-    </comp>
-    <comp ref="R70">
-      <value>8.2k/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE4D50</tstamp>
-    </comp>
-    <comp ref="SW4">
-      <value>VOL-</value>
-      <libsource lib="device" part="SW_PUSH"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE4DA1</tstamp>
-    </comp>
-    <comp ref="R71">
-      <value>10k/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE50EA</tstamp>
-    </comp>
-    <comp ref="SW5">
-      <value>MENU</value>
-      <libsource lib="device" part="SW_PUSH"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE5135</tstamp>
-    </comp>
-    <comp ref="R72">
-      <value>11k/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE556A</tstamp>
-    </comp>
-    <comp ref="SW6">
-      <value>ENTER</value>
-      <libsource lib="device" part="SW_PUSH"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE55AB</tstamp>
-    </comp>
-    <comp ref="SW7">
-      <value>HOME</value>
-      <libsource lib="device" part="SW_PUSH"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE5E39</tstamp>
-    </comp>
-    <comp ref="R73">
-      <value>13k/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE6EB4</tstamp>
-    </comp>
-    <comp ref="R19">
-      <value>2k/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE7E5F</tstamp>
-    </comp>
-    <comp ref="R74">
-      <value>2k/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE7EF2</tstamp>
-    </comp>
-    <comp ref="C80">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE993F</tstamp>
-    </comp>
-    <comp ref="C81">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54DE998A</tstamp>
-    </comp>
-    <comp ref="RP9">
-      <value>R_PACK4</value>
-      <libsource lib="device" part="R_PACK4"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E3CCAF</tstamp>
-    </comp>
-    <comp ref="RP8">
-      <value>R_PACK4</value>
-      <libsource lib="device" part="R_PACK4"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E3D4A6</tstamp>
-    </comp>
-    <comp ref="RP10">
-      <value>R_PACK4</value>
-      <libsource lib="device" part="R_PACK4"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E3D501</tstamp>
-    </comp>
-    <comp ref="RP7">
-      <value>R_PACK4</value>
-      <libsource lib="device" part="R_PACK4"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E3D52E</tstamp>
-    </comp>
-    <comp ref="RP6">
-      <value>R_PACK4</value>
-      <libsource lib="device" part="R_PACK4"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E3DE3C</tstamp>
-    </comp>
-    <comp ref="RP5">
-      <value>R_PACK4</value>
-      <libsource lib="device" part="R_PACK4"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E3DEA5</tstamp>
-    </comp>
-    <comp ref="RP3">
-      <value>R_PACK4</value>
-      <libsource lib="device" part="R_PACK4"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E3DF0A</tstamp>
-    </comp>
-    <comp ref="RP2">
-      <value>R_PACK4</value>
-      <libsource lib="device" part="R_PACK4"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E3DF3B</tstamp>
-    </comp>
-    <comp ref="R26">
-      <value>240R/1%</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E27D72</tstamp>
-    </comp>
-    <comp ref="RP1">
-      <value>R_PACK4</value>
-      <libsource lib="device" part="R_PACK4"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E754D4</tstamp>
-    </comp>
-    <comp ref="RP4">
-      <value>R_PACK4</value>
-      <libsource lib="device" part="R_PACK4"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E75513</tstamp>
-    </comp>
-    <comp ref="R27">
-      <value>24R</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E22C4C</tstamp>
-    </comp>
-    <comp ref="R28">
-      <value>24R</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E23712</tstamp>
-    </comp>
-    <comp ref="R30">
-      <value>24R</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E3CEEB</tstamp>
-    </comp>
-    <comp ref="R29">
-      <value>24R</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E3E95B</tstamp>
-    </comp>
-    <comp ref="R31">
-      <value>24R</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E3F34A</tstamp>
-    </comp>
-    <comp ref="R32">
-      <value>24R</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E3F843</tstamp>
-    </comp>
-    <comp ref="R33">
-      <value>24R</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E40871</tstamp>
-    </comp>
-    <comp ref="R34">
-      <value>24R</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E429A9</tstamp>
-    </comp>
-    <comp ref="U5">
-      <value>h5tq2g63bfr</value>
-      <libsource lib="h5tq2g63bfr" part="h5tq2g63bfr"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>54E901E4</tstamp>
-    </comp>
-    <comp ref="C82">
-      <value>22uF/6.3V</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5506B306</tstamp>
-    </comp>
-    <comp ref="C83">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5506B475</tstamp>
-    </comp>
-    <comp ref="C84">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5506B607</tstamp>
-    </comp>
-    <comp ref="C85">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5506B66C</tstamp>
-    </comp>
-    <comp ref="C86">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5506B78B</tstamp>
-    </comp>
-    <comp ref="C87">
-      <value>22uF/6.3V</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5506B7C8</tstamp>
-    </comp>
-    <comp ref="C88">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5506B815</tstamp>
-    </comp>
-    <comp ref="C89">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5506B85C</tstamp>
-    </comp>
-    <comp ref="C90">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5506B8D5</tstamp>
-    </comp>
-    <comp ref="C91">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5506B91C</tstamp>
-    </comp>
-    <comp ref="C92">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5506B97D</tstamp>
-    </comp>
-    <comp ref="C93">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5506B9C6</tstamp>
-    </comp>
-    <comp ref="R14">
-      <value>JUMPER</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>552902CF</tstamp>
-    </comp>
-    <comp ref="C28">
-      <value>0.1uF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>552E0493</tstamp>
-    </comp>
-    <comp ref="C31">
-      <value>100nF</value>
-      <libsource lib="gc3-cache" part="C-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>5532AE2F</tstamp>
+      <tstamp>565AFF0E</tstamp>
     </comp>
     <comp ref="J2">
       <value>DM3AT-SF-PEJM5</value>
+      <footprint>DM3AT-SF-PEJM5:DM3AT-SF-PEJM5</footprint>
       <libsource lib="DM3AT-SF-PEJM5" part="DM3AT-SF-PEJM5"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>557B7475</tstamp>
-    </comp>
-    <comp ref="R22">
-      <value>47k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
-      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>557C135E</tstamp>
+      <tstamp>565CA36A</tstamp>
     </comp>
     <comp ref="R25">
       <value>47k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>557C16D2</tstamp>
+      <tstamp>565CBD4E</tstamp>
     </comp>
     <comp ref="R24">
       <value>47k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>557C16D8</tstamp>
+      <tstamp>565CCDAF</tstamp>
     </comp>
     <comp ref="R23">
       <value>47k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>557C16DE</tstamp>
+      <tstamp>565CD309</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>565CDAB4</tstamp>
     </comp>
     <comp ref="R21">
       <value>47k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>557C16E4</tstamp>
+      <tstamp>565CE273</tstamp>
     </comp>
     <comp ref="R20">
       <value>47k</value>
-      <libsource lib="gc3-rescue" part="R-RESCUE-gc3"/>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
       <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
-      <tstamp>557C16EA</tstamp>
+      <tstamp>565CE438</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>h5tq2g63bfr</value>
+      <footprint>MT41J256M16:BGA-96_pitch0.8mm_dia0.4mm</footprint>
+      <libsource lib="h5tq2g63bfr" part="h5tq2g63bfr"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56619DB5</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56651DB6</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>240R/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56656587</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>2k/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56673B97</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>2k/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56674504</tstamp>
+    </comp>
+    <comp ref="C68">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>566757D4</tstamp>
+    </comp>
+    <comp ref="C69">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56675DFB</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>2k/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56688438</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>2k/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5668843E</tstamp>
+    </comp>
+    <comp ref="C80">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56688444</tstamp>
+    </comp>
+    <comp ref="C81">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5668844A</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>JUMPER</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>5668CB44</tstamp>
+    </comp>
+    <comp ref="P17">
+      <value>GPIO</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x20</footprint>
+      <libsource lib="conn" part="CONN_02X20"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>569B1E69</tstamp>
+    </comp>
+    <comp ref="C74">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>569E3C26</tstamp>
+    </comp>
+    <comp ref="C73">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>569E4D1B</tstamp>
+    </comp>
+    <comp ref="C72">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>569E52B2</tstamp>
+    </comp>
+    <comp ref="C70">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>569E669F</tstamp>
+    </comp>
+    <comp ref="C71">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>569EF455</tstamp>
+    </comp>
+    <comp ref="C86">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>569FF774</tstamp>
+    </comp>
+    <comp ref="C85">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>569FF77A</tstamp>
+    </comp>
+    <comp ref="C84">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>569FF780</tstamp>
+    </comp>
+    <comp ref="C82">
+      <value>22uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>569FF786</tstamp>
+    </comp>
+    <comp ref="C83">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>569FF7A0</tstamp>
+    </comp>
+    <comp ref="C91">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A01963</tstamp>
+    </comp>
+    <comp ref="C90">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A01969</tstamp>
+    </comp>
+    <comp ref="C89">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A0196F</tstamp>
+    </comp>
+    <comp ref="C87">
+      <value>22uF/6.3V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A01975</tstamp>
+    </comp>
+    <comp ref="C88">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A0198F</tstamp>
+    </comp>
+    <comp ref="C92">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A0543B</tstamp>
+    </comp>
+    <comp ref="C93">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A05C69</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A9038B</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>6.8k/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A90CCB</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>8.2k/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A91DDC</tstamp>
+    </comp>
+    <comp ref="C79">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A92F6D</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>VOL+</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_FSMSM</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A9A0B6</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>VOL-</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_FSMSM</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A9BDD7</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>10k/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A9CA8A</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>11k/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A9E2D0</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>MENU</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_FSMSM</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A9EF0F</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>ENTER</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_FSMSM</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56A9FBDA</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>13k/1%</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56AA0EB1</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>HOME</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_FSMSM</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>56AA2309</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>LCD</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x20</footprint>
+      <libsource lib="conn" part="CONN_02X20"/>
+      <sheetpath names="/mpu_ddr3/" tstamps="/544296D6/"/>
+      <tstamp>568C60C9</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="gc3-rescue" part="R-RESCUE-gc3">
+    <libpart lib="gc3-rescue" part="JACK_2P-RESCUE-gc3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JACK_2P-RESCUE-gc3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_A">
+      <description>A connector</description>
       <footprints>
-        <fp>R?</fp>
-        <fp>SM0603</fp>
-        <fp>SM0805</fp>
-        <fp>R?-*</fp>
-        <fp>SM1206</fp>
+        <fp>USB*</fp>
       </footprints>
       <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R-RESCUE-gc3</field>
+        <field name="Reference">P</field>
+        <field name="Value">USB_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_OTG">
+      <description>micro/mini connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="SW_PUSH">
-      <description>Push Button</description>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_PUSH</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="FUSE">
-      <fields>
-        <field name="Reference">F</field>
-        <field name="Value">FUSE</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="INDUCTOR">
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">INDUCTOR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X01">
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
       <footprints>
-        <fp>Pin_Header_Straight_1X01</fp>
-        <fp>Pin_Header_Angled_1X01</fp>
-        <fp>Socket_Strip_Straight_1X01</fp>
-        <fp>Socket_Strip_Angled_1X01</fp>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
       </footprints>
       <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X01</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X04">
-      <footprints>
-        <fp>Pin_Header_Straight_1X04</fp>
-        <fp>Pin_Header_Angled_1X04</fp>
-        <fp>Socket_Strip_Straight_1X04</fp>
-        <fp>Socket_Strip_Angled_1X04</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X04</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X06">
-      <footprints>
-        <fp>Pin_Header_Straight_1X06</fp>
-        <fp>Pin_Header_Angled_1X06</fp>
-        <fp>Socket_Strip_Straight_1X06</fp>
-        <fp>Socket_Strip_Angled_1X06</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X06</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_02X20">
-      <footprints>
-        <fp>Pin_Header_Straight_2X20</fp>
-        <fp>Pin_Header_Angled_2X20</fp>
-        <fp>Socket_Strip_Straight_2X20</fp>
-        <fp>Socket_Strip_Angled_2X20</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X20</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-        <pin num="13" name="P13" type="passive"/>
-        <pin num="14" name="P14" type="passive"/>
-        <pin num="15" name="P15" type="passive"/>
-        <pin num="16" name="P16" type="passive"/>
-        <pin num="17" name="P17" type="passive"/>
-        <pin num="18" name="P18" type="passive"/>
-        <pin num="19" name="P19" type="passive"/>
-        <pin num="20" name="P20" type="passive"/>
-        <pin num="21" name="P21" type="passive"/>
-        <pin num="22" name="P22" type="passive"/>
-        <pin num="23" name="P23" type="passive"/>
-        <pin num="24" name="P24" type="passive"/>
-        <pin num="25" name="P25" type="passive"/>
-        <pin num="26" name="P26" type="passive"/>
-        <pin num="27" name="P27" type="passive"/>
-        <pin num="28" name="P28" type="passive"/>
-        <pin num="29" name="P29" type="passive"/>
-        <pin num="30" name="P30" type="passive"/>
-        <pin num="31" name="P31" type="passive"/>
-        <pin num="32" name="P32" type="passive"/>
-        <pin num="33" name="P33" type="passive"/>
-        <pin num="34" name="P34" type="passive"/>
-        <pin num="35" name="P35" type="passive"/>
-        <pin num="36" name="P36" type="passive"/>
-        <pin num="37" name="P37" type="passive"/>
-        <pin num="38" name="P38" type="passive"/>
-        <pin num="39" name="P39" type="passive"/>
-        <pin num="40" name="P40" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="LED">
-      <footprints>
-        <fp>LED-3MM</fp>
-        <fp>LED-5MM</fp>
-        <fp>LED-10MM</fp>
-        <fp>LED-0603</fp>
-        <fp>LED-0805</fp>
-        <fp>LED-1206</fp>
-        <fp>LEDV</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistor</description>
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R_PACK4">
-      <description>4 resistors Pack</description>
-      <fields>
-        <field name="Reference">RP</field>
-        <field name="Value">R_PACK4</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="R4" type="passive"/>
-        <pin num="6" name="R3" type="passive"/>
-        <pin num="7" name="R2" type="passive"/>
-        <pin num="8" name="R1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="a13" part="a13">
@@ -1582,7 +1733,7 @@
         <pin num="2" name="SCK" type="input"/>
         <pin num="3" name="GPIO3" type="BiDi"/>
         <pin num="4" name="N_OE" type="input"/>
-        <pin num="5" name="GPIO3" type="BiDi"/>
+        <pin num="5" name="GPIO2" type="BiDi"/>
         <pin num="6" name="N_VBUSEN" type="input"/>
         <pin num="7" name="VIN2" type="power_in"/>
         <pin num="8" name="LX2" type="BiDi"/>
@@ -1766,1408 +1917,1693 @@
         <pin num="6" name="GND" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="gc3-cache" part="C-RESCUE-gc3">
+    <libpart lib="tps2552" part="TPS2552">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2552</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="~FAULT" type="input"/>
+        <pin num="5" name="ILIM" type="BiDi"/>
+        <pin num="6" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="crystall" part="4_pin_crystall">
+      <description>4 pin crystal</description>
       <footprints>
-        <fp>SM*</fp>
-        <fp>C?</fp>
-        <fp>C1-1</fp>
+        <fp>Crystal_</fp>
       </footprints>
       <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C-RESCUE-gc3</field>
+        <field name="Reference">Y</field>
+        <field name="Value">4_pin_crystall</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistorarray" part="RA">
+      <fields>
+        <field name="Reference">RA</field>
+        <field name="Value">RA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="~" type="BiDi"/>
+        <pin num="6" name="~" type="BiDi"/>
+        <pin num="7" name="~" type="BiDi"/>
+        <pin num="8" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="gc3-cache" part="CP2">
-      <footprints>
-        <fp>SM*</fp>
-        <fp>C?</fp>
-        <fp>C1-1</fp>
-      </footprints>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
       <fields>
-        <field name="Reference">C</field>
-        <field name="Value">CP2</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="gc3-cache" part="CRYSTAL">
-      <fields>
-        <field name="Reference">X</field>
-        <field name="Value">CRYSTAL</field>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="gc3-cache" part="DIODE">
+    <libpart lib="device" part="LED">
       <footprints>
-        <fp>D?</fp>
-        <fp>S*</fp>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">DIODE</field>
+        <field name="Value">LED</field>
       </fields>
       <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="gc3-cache" part="JACK_2P-RESCUE-gc3">
+    <libpart lib="device" part="INDUCTOR_SMALL">
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">JACK_2P-RESCUE-gc3</field>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X20">
+      <footprints>
+        <fp>Pin_Header_Straight_2X20</fp>
+        <fp>Pin_Header_Angled_2X20</fp>
+        <fp>Socket_Strip_Straight_2X20</fp>
+        <fp>Socket_Strip_Angled_2X20</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+        <pin num="27" name="P27" type="passive"/>
+        <pin num="28" name="P28" type="passive"/>
+        <pin num="29" name="P29" type="passive"/>
+        <pin num="30" name="P30" type="passive"/>
+        <pin num="31" name="P31" type="passive"/>
+        <pin num="32" name="P32" type="passive"/>
+        <pin num="33" name="P33" type="passive"/>
+        <pin num="34" name="P34" type="passive"/>
+        <pin num="35" name="P35" type="passive"/>
+        <pin num="36" name="P36" type="passive"/>
+        <pin num="37" name="P37" type="passive"/>
+        <pin num="38" name="P38" type="passive"/>
+        <pin num="39" name="P39" type="passive"/>
+        <pin num="40" name="P40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
     <library logical="device">
-      <uri>C:\Users\Masahiro\bin\kicad-winbuilder-3.4-3\kicad\share\library\device.lib</uri>
-    </library>
-    <library logical="gc3-rescue">
-      <uri>C:\Users\Masahiro\work\kicad\gc3\gc3-rescue.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
     </library>
     <library logical="conn">
-      <uri>C:\Users\Masahiro\bin\kicad-winbuilder-3.4-3\kicad\share\library\conn.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="gc3-rescue">
+      <uri>gc3-rescue.lib</uri>
     </library>
     <library logical="a13">
-      <uri>C:\Users\Masahiro\work\kicad\gc3\a13.lib</uri>
+      <uri>a13.lib</uri>
     </library>
     <library logical="axp209">
-      <uri>C:\Users\Masahiro\work\kicad\gc3\axp209.lib</uri>
+      <uri>axp209.lib</uri>
     </library>
     <library logical="h5tq2g63bfr">
-      <uri>C:\Users\Masahiro\work\kicad\gc3\h5tq2g63bfr.lib</uri>
+      <uri>h5tq2g63bfr.lib</uri>
     </library>
     <library logical="DM3AT-SF-PEJM5">
-      <uri>C:\Users\Masahiro\work\kicad\gc3\DM3AT-SF-PEJM5.lib</uri>
+      <uri>DM3AT-SF-PEJM5.lib</uri>
     </library>
     <library logical="tps62290">
-      <uri>C:\Users\Masahiro\work\kicad\gc3\tps62290.lib</uri>
+      <uri>tps62290.lib</uri>
     </library>
-    <library logical="gc3-cache">
-      <uri>C:\Users\Masahiro\work\kicad\gc3\gc3-cache.lib</uri>
+    <library logical="tps2552">
+      <uri>tps2552.lib</uri>
+    </library>
+    <library logical="crystall">
+      <uri>crystall.lib</uri>
+    </library>
+    <library logical="resistorarray">
+      <uri>resistorarray.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="GND">
-      <node ref="U5" pin="G1"/>
-      <node ref="U5" pin="M1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="U5" pin="T1"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C12" pin="1"/>
-      <node ref="U5" pin="D1"/>
-      <node ref="U5" pin="B1"/>
-      <node ref="C5" pin="2"/>
+      <node ref="C59" pin="2"/>
+      <node ref="C90" pin="2"/>
+      <node ref="C47" pin="2"/>
       <node ref="C55" pin="2"/>
-      <node ref="C46" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C54" pin="2"/>
-      <node ref="C15" pin="1"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="C78" pin="2"/>
+      <node ref="P18" pin="4"/>
+      <node ref="L7" pin="1"/>
+      <node ref="C87" pin="2"/>
+      <node ref="U2" pin="49"/>
       <node ref="R5" pin="2"/>
-      <node ref="C45" pin="2"/>
+      <node ref="L8" pin="1"/>
+      <node ref="R42" pin="2"/>
+      <node ref="C75" pin="2"/>
+      <node ref="C93" pin="2"/>
+      <node ref="C92" pin="2"/>
+      <node ref="C88" pin="2"/>
+      <node ref="C60" pin="2"/>
+      <node ref="C67" pin="2"/>
+      <node ref="P19" pin="5"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="C1" pin="2"/>
       <node ref="J1" pin="2"/>
       <node ref="J1" pin="3"/>
-      <node ref="U5" pin="E1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U5" pin="F1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="U5" pin="J2"/>
-      <node ref="R1" pin="1"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="U5" pin="L2"/>
-      <node ref="C13" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="U5" pin="E2"/>
-      <node ref="C24" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C93" pin="2"/>
-      <node ref="C23" pin="2"/>
-      <node ref="SW3" pin="1"/>
-      <node ref="C90" pin="2"/>
-      <node ref="C19" pin="1"/>
-      <node ref="C85" pin="2"/>
-      <node ref="C16" pin="1"/>
-      <node ref="C86" pin="2"/>
-      <node ref="C17" pin="1"/>
-      <node ref="C20" pin="1"/>
-      <node ref="C87" pin="2"/>
-      <node ref="C88" pin="2"/>
-      <node ref="C89" pin="2"/>
-      <node ref="C91" pin="2"/>
-      <node ref="C25" pin="2"/>
-      <node ref="C92" pin="2"/>
-      <node ref="C63" pin="2"/>
-      <node ref="C79" pin="2"/>
-      <node ref="P7" pin="2"/>
-      <node ref="U5" pin="B3"/>
-      <node ref="C57" pin="2"/>
-      <node ref="C56" pin="2"/>
       <node ref="C64" pin="2"/>
-      <node ref="C34" pin="2"/>
-      <node ref="C66" pin="1"/>
-      <node ref="C47" pin="2"/>
-      <node ref="R17" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="C53" pin="2"/>
-      <node ref="C60" pin="2"/>
-      <node ref="C59" pin="2"/>
       <node ref="C29" pin="2"/>
-      <node ref="C30" pin="2"/>
-      <node ref="C32" pin="2"/>
-      <node ref="C33" pin="2"/>
-      <node ref="C39" pin="2"/>
-      <node ref="P13" pin="1"/>
-      <node ref="P14" pin="1"/>
-      <node ref="P12" pin="1"/>
-      <node ref="C42" pin="2"/>
-      <node ref="C41" pin="2"/>
-      <node ref="C40" pin="2"/>
-      <node ref="C36" pin="2"/>
-      <node ref="U4" pin="79"/>
-      <node ref="C35" pin="2"/>
-      <node ref="C38" pin="2"/>
-      <node ref="C61" pin="2"/>
-      <node ref="C51" pin="2"/>
-      <node ref="C52" pin="2"/>
-      <node ref="C58" pin="2"/>
-      <node ref="C62" pin="2"/>
-      <node ref="C65" pin="2"/>
-      <node ref="C73" pin="2"/>
-      <node ref="C72" pin="2"/>
-      <node ref="C49" pin="2"/>
-      <node ref="C71" pin="2"/>
-      <node ref="C50" pin="2"/>
-      <node ref="C74" pin="2"/>
-      <node ref="C70" pin="2"/>
-      <node ref="U5" pin="P1"/>
-      <node ref="U4" pin="177"/>
-      <node ref="C43" pin="2"/>
-      <node ref="C84" pin="2"/>
-      <node ref="P11" pin="1"/>
-      <node ref="C44" pin="2"/>
-      <node ref="R69" pin="2"/>
-      <node ref="C69" pin="2"/>
-      <node ref="C48" pin="2"/>
-      <node ref="U2" pin="46"/>
-      <node ref="U2" pin="9"/>
-      <node ref="U2" pin="22"/>
-      <node ref="R74" pin="2"/>
-      <node ref="C81" pin="2"/>
-      <node ref="SW4" pin="1"/>
-      <node ref="U2" pin="16"/>
-      <node ref="SW5" pin="1"/>
-      <node ref="SW6" pin="1"/>
-      <node ref="SW7" pin="1"/>
-      <node ref="C28" pin="2"/>
-      <node ref="U2" pin="49"/>
-      <node ref="C31" pin="2"/>
-      <node ref="R26" pin="2"/>
-      <node ref="R11" pin="2"/>
-      <node ref="C21" pin="2"/>
-      <node ref="J2" pin="10"/>
-      <node ref="J2" pin="6"/>
-      <node ref="C3" pin="2"/>
-      <node ref="J2" pin="11"/>
-      <node ref="J2" pin="11"/>
-      <node ref="J2" pin="11"/>
-      <node ref="C82" pin="2"/>
-      <node ref="C37" pin="2"/>
-      <node ref="U5" pin="D8"/>
+      <node ref="D2" pin="1"/>
       <node ref="U1" pin="6"/>
-      <node ref="U5" pin="A9"/>
-      <node ref="U5" pin="B9"/>
+      <node ref="C3" pin="2"/>
       <node ref="C83" pin="2"/>
-      <node ref="R66" pin="1"/>
-      <node ref="P10" pin="4"/>
-      <node ref="P9" pin="4"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C85" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C86" pin="2"/>
+      <node ref="C63" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C56" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C84" pin="2"/>
+      <node ref="C82" pin="2"/>
+      <node ref="C28" pin="2"/>
       <node ref="U1" pin="2"/>
-      <node ref="P7" pin="4"/>
-      <node ref="P8" pin="6"/>
-      <node ref="C18" pin="1"/>
+      <node ref="U5" pin="B3"/>
+      <node ref="C72" pin="2"/>
+      <node ref="U5" pin="E2"/>
+      <node ref="C70" pin="2"/>
+      <node ref="U5" pin="T1"/>
+      <node ref="U5" pin="P1"/>
+      <node ref="U5" pin="M1"/>
+      <node ref="U5" pin="G1"/>
+      <node ref="P17" pin="2"/>
+      <node ref="P17" pin="4"/>
+      <node ref="U5" pin="J2"/>
+      <node ref="U5" pin="L2"/>
+      <node ref="C74" pin="2"/>
+      <node ref="C73" pin="2"/>
+      <node ref="C71" pin="2"/>
+      <node ref="C79" pin="2"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="C81" pin="2"/>
+      <node ref="R74" pin="2"/>
+      <node ref="U5" pin="D8"/>
       <node ref="U5" pin="E8"/>
       <node ref="U5" pin="G8"/>
-      <node ref="C10" pin="2"/>
+      <node ref="P7" pin="2"/>
+      <node ref="P7" pin="4"/>
+      <node ref="C96" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U2" pin="16"/>
+      <node ref="C89" pin="2"/>
+      <node ref="U2" pin="46"/>
+      <node ref="C91" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="U5" pin="B9"/>
+      <node ref="U5" pin="A9"/>
+      <node ref="U8" pin="2"/>
       <node ref="U5" pin="J8"/>
-      <node ref="R13" pin="2"/>
-      <node ref="C26" pin="2"/>
-      <node ref="C27" pin="2"/>
-      <node ref="U3" pin="2"/>
-      <node ref="U3" pin="6"/>
+      <node ref="C95" pin="2"/>
       <node ref="U5" pin="M9"/>
+      <node ref="C76" pin="2"/>
       <node ref="U5" pin="P9"/>
+      <node ref="C97" pin="2"/>
       <node ref="U5" pin="T9"/>
       <node ref="U5" pin="G9"/>
       <node ref="U5" pin="F9"/>
-      <node ref="D2" pin="1"/>
-    </net>
-    <net code="2" name="/IPSOUT">
-      <node ref="U2" pin="13"/>
-      <node ref="U3" pin="5"/>
-      <node ref="U3" pin="4"/>
-      <node ref="U2" pin="40"/>
-      <node ref="U2" pin="21"/>
-      <node ref="U2" pin="14"/>
-      <node ref="U2" pin="34"/>
-      <node ref="U2" pin="35"/>
-      <node ref="U2" pin="44"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="SW2" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="P10" pin="4"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="U4" pin="79"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U5" pin="F1"/>
+      <node ref="C62" pin="2"/>
+      <node ref="P9" pin="4"/>
+      <node ref="J2" pin="11"/>
+      <node ref="J2" pin="11"/>
+      <node ref="J2" pin="11"/>
+      <node ref="J2" pin="10"/>
+      <node ref="J2" pin="6"/>
+      <node ref="C65" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U4" pin="177"/>
+      <node ref="C66" pin="1"/>
+      <node ref="R66" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U5" pin="D1"/>
+      <node ref="C52" pin="2"/>
+      <node ref="U5" pin="E1"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C58" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C61" pin="2"/>
+      <node ref="U5" pin="B1"/>
+      <node ref="R69" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C69" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="P11" pin="1"/>
+      <node ref="U2" pin="22"/>
+      <node ref="P12" pin="1"/>
+      <node ref="P13" pin="1"/>
+      <node ref="P14" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="C2" pin="2"/>
+      <node ref="SW1" pin="1"/>
       <node ref="C8" pin="2"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U1" pin="5"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U2" pin="7"/>
+      <node ref="C31" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="P8" pin="6"/>
     </net>
-    <net code="3" name="Net-(R7-Pad1)">
-      <node ref="U2" pin="31"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="4" name="Net-(U2-Pad29)">
-      <node ref="U2" pin="29"/>
-    </net>
-    <net code="5" name="Net-(U2-Pad39)">
-      <node ref="U2" pin="39"/>
-    </net>
-    <net code="6" name="Net-(L3-Pad1)">
-      <node ref="U2" pin="15"/>
-      <node ref="L3" pin="1"/>
-    </net>
-    <net code="7" name="+3.0VA">
-      <node ref="C65" pin="1"/>
-      <node ref="U1" pin="4"/>
-      <node ref="C19" pin="2"/>
-      <node ref="P3" pin="1"/>
-      <node ref="R16" pin="2"/>
-      <node ref="U4" pin="81"/>
-      <node ref="U2" pin="12"/>
-    </net>
-    <net code="8" name="Net-(L1-Pad1)">
-      <node ref="U1" pin="3"/>
-      <node ref="L1" pin="1"/>
-    </net>
-    <net code="9" name="Net-(U2-Pad3)">
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="10" name="Net-(U2-Pad5)">
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="11" name="Net-(U2-Pad6)">
-      <node ref="U2" pin="6"/>
-    </net>
-    <net code="12" name="Net-(D1-Pad2)">
-      <node ref="R8" pin="1"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="13" name="Net-(R4-Pad2)">
-      <node ref="SW1" pin="2"/>
-      <node ref="R4" pin="2"/>
-    </net>
-    <net code="14" name="Net-(U2-Pad30)">
-      <node ref="U2" pin="30"/>
-    </net>
-    <net code="15" name="Net-(U2-Pad45)">
-      <node ref="U2" pin="45"/>
-    </net>
-    <net code="16" name="Net-(U2-Pad36)">
-      <node ref="U2" pin="36"/>
-    </net>
-    <net code="17" name="1.2V_INT">
-      <node ref="U4" pin="109"/>
-      <node ref="L3" pin="2"/>
-      <node ref="P5" pin="1"/>
-      <node ref="U2" pin="17"/>
-      <node ref="C22" pin="1"/>
-      <node ref="C25" pin="1"/>
-      <node ref="C49" pin="1"/>
-      <node ref="C50" pin="1"/>
-      <node ref="C48" pin="1"/>
-      <node ref="C44" pin="1"/>
-      <node ref="C43" pin="1"/>
-      <node ref="U4" pin="35"/>
-      <node ref="U4" pin="98"/>
-      <node ref="U4" pin="73"/>
-      <node ref="U4" pin="149"/>
-    </net>
-    <net code="18" name="Net-(U2-Pad18)">
-      <node ref="U2" pin="18"/>
-    </net>
-    <net code="19" name="Net-(U2-Pad38)">
-      <node ref="U2" pin="38"/>
-    </net>
-    <net code="20" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1"/>
-      <node ref="J1" pin="1"/>
-      <node ref="F1" pin="1"/>
-    </net>
-    <net code="21" name="Net-(U2-Pad43)">
-      <node ref="U2" pin="43"/>
-    </net>
-    <net code="22" name="Net-(U2-Pad42)">
-      <node ref="U2" pin="42"/>
-    </net>
-    <net code="23" name="+3.3V">
-      <node ref="P9" pin="1"/>
-      <node ref="P10" pin="1"/>
+    <net code="2" name="+3V3">
+      <node ref="R21" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R24" pin="1"/>
       <node ref="J2" pin="4"/>
+      <node ref="P10" pin="1"/>
+      <node ref="P9" pin="1"/>
+      <node ref="R25" pin="1"/>
       <node ref="P8" pin="1"/>
-      <node ref="R18" pin="2"/>
-      <node ref="R22" pin="2"/>
-      <node ref="U4" pin="100"/>
-      <node ref="D1" pin="1"/>
+      <node ref="P15" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R10" pin="2"/>
       <node ref="R3" pin="2"/>
       <node ref="U4" pin="97"/>
-      <node ref="P15" pin="1"/>
-      <node ref="C26" pin="1"/>
-      <node ref="U4" pin="5"/>
-      <node ref="R12" pin="1"/>
-      <node ref="U4" pin="163"/>
-      <node ref="L4" pin="2"/>
-      <node ref="JP1" pin="1"/>
-      <node ref="C14" pin="1"/>
       <node ref="U4" pin="142"/>
-      <node ref="R10" pin="2"/>
-      <node ref="C29" pin="1"/>
+      <node ref="U4" pin="100"/>
       <node ref="C30" pin="1"/>
       <node ref="C32" pin="1"/>
       <node ref="C33" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="L4" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C26" pin="1"/>
       <node ref="C27" pin="1"/>
-      <node ref="P7" pin="3"/>
+      <node ref="U4" pin="163"/>
       <node ref="C47" pin="1"/>
-      <node ref="R25" pin="2"/>
-      <node ref="R24" pin="2"/>
-      <node ref="R23" pin="2"/>
-      <node ref="R21" pin="2"/>
-      <node ref="R20" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="R35" pin="2"/>
+      <node ref="P17" pin="3"/>
+      <node ref="P7" pin="3"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R41" pin="1"/>
     </net>
-    <net code="24" name="Net-(C20-Pad2)">
-      <node ref="C20" pin="2"/>
-      <node ref="JP1" pin="2"/>
-      <node ref="U2" pin="11"/>
+    <net code="3" name="Net-(C6-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="C6" pin="1"/>
     </net>
-    <net code="25" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="R15" pin="2"/>
+    <net code="4" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
     </net>
-    <net code="26" name="Net-(C7-Pad1)">
-      <node ref="U2" pin="47"/>
-      <node ref="R4" pin="1"/>
-      <node ref="C7" pin="1"/>
+    <net code="5" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
     </net>
-    <net code="27" name="Net-(C11-Pad2)">
-      <node ref="C11" pin="2"/>
-      <node ref="R11" pin="1"/>
-      <node ref="R2" pin="2"/>
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="28" name="+1.5V">
-      <node ref="U5" pin="N1"/>
-      <node ref="C68" pin="1"/>
-      <node ref="C71" pin="1"/>
-      <node ref="R68" pin="1"/>
-      <node ref="C80" pin="1"/>
-      <node ref="U5" pin="R1"/>
-      <node ref="R19" pin="1"/>
-      <node ref="U5" pin="B2"/>
-      <node ref="U5" pin="D2"/>
-      <node ref="U4" pin="43"/>
-      <node ref="U4" pin="23"/>
-      <node ref="U4" pin="62"/>
-      <node ref="R2" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C21" pin="1"/>
-      <node ref="C51" pin="1"/>
-      <node ref="L1" pin="2"/>
-      <node ref="P6" pin="1"/>
-      <node ref="C52" pin="1"/>
-      <node ref="C58" pin="1"/>
-      <node ref="C61" pin="1"/>
-      <node ref="C62" pin="1"/>
-      <node ref="U4" pin="30"/>
-      <node ref="U4" pin="53"/>
-      <node ref="C86" pin="1"/>
-      <node ref="C37" pin="1"/>
-      <node ref="U5" pin="K2"/>
-      <node ref="U5" pin="G7"/>
-      <node ref="C84" pin="1"/>
-      <node ref="C85" pin="1"/>
-      <node ref="C87" pin="1"/>
-      <node ref="U5" pin="R9"/>
-      <node ref="U5" pin="N9"/>
-      <node ref="C74" pin="1"/>
-      <node ref="C88" pin="1"/>
-      <node ref="C73" pin="1"/>
-      <node ref="U5" pin="H9"/>
-      <node ref="C89" pin="1"/>
-      <node ref="C72" pin="1"/>
-      <node ref="C90" pin="1"/>
-      <node ref="C91" pin="1"/>
-      <node ref="R14" pin="2"/>
-      <node ref="R14" pin="1"/>
-      <node ref="U5" pin="C9"/>
-      <node ref="U5" pin="K8"/>
-      <node ref="U5" pin="D9"/>
-      <node ref="U5" pin="A1"/>
-      <node ref="U5" pin="A8"/>
-      <node ref="U5" pin="C1"/>
-      <node ref="U5" pin="E9"/>
-      <node ref="C83" pin="1"/>
-      <node ref="C82" pin="1"/>
-      <node ref="U5" pin="H2"/>
-      <node ref="C92" pin="1"/>
-      <node ref="C70" pin="1"/>
-      <node ref="C93" pin="1"/>
-    </net>
-    <net code="29" name="Net-(L4-Pad1)">
-      <node ref="L4" pin="1"/>
-      <node ref="U3" pin="3"/>
-    </net>
-    <net code="30" name="Net-(C14-Pad2)">
-      <node ref="R13" pin="1"/>
-      <node ref="U3" pin="1"/>
-      <node ref="R12" pin="2"/>
-      <node ref="C14" pin="2"/>
-    </net>
-    <net code="31" name="1.2V_CPU">
-      <node ref="C23" pin="1"/>
-      <node ref="C24" pin="1"/>
-      <node ref="U4" pin="169"/>
-      <node ref="C35" pin="1"/>
-      <node ref="C36" pin="1"/>
-      <node ref="L2" pin="2"/>
-      <node ref="U4" pin="156"/>
-      <node ref="C34" pin="1"/>
-      <node ref="P4" pin="1"/>
-      <node ref="C40" pin="1"/>
-      <node ref="C41" pin="1"/>
-      <node ref="C42" pin="1"/>
-      <node ref="U4" pin="4"/>
-      <node ref="U4" pin="9"/>
-      <node ref="U4" pin="11"/>
-      <node ref="U2" pin="10"/>
-      <node ref="U4" pin="16"/>
-      <node ref="U4" pin="164"/>
-      <node ref="C38" pin="1"/>
-      <node ref="U4" pin="173"/>
-      <node ref="C39" pin="1"/>
-    </net>
-    <net code="32" name="/3V3_WIFI">
-      <node ref="U2" pin="41"/>
-      <node ref="C16" pin="2"/>
-    </net>
-    <net code="33" name="/VDD_RTC">
-      <node ref="P2" pin="1"/>
-      <node ref="U2" pin="28"/>
-      <node ref="C18" pin="2"/>
-    </net>
-    <net code="34" name="/mpu_ddr3/NMI_N">
-      <node ref="U2" pin="48"/>
-      <node ref="R8" pin="2"/>
-      <node ref="U4" pin="158"/>
-    </net>
-    <net code="35" name="/mpu_ddr3/RESET_N">
-      <node ref="R18" pin="1"/>
-      <node ref="U4" pin="159"/>
-      <node ref="C28" pin="1"/>
-      <node ref="U2" pin="25"/>
-    </net>
-    <net code="36" name="/mpu_ddr3/PIN0">
-      <node ref="P7" pin="35"/>
-      <node ref="U2" pin="19"/>
-    </net>
-    <net code="37" name="/mpu_ddr3/PIN5/TWI0-SDA">
-      <node ref="R3" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="U4" pin="102"/>
-    </net>
-    <net code="38" name="Net-(R9-Pad1)">
-      <node ref="R9" pin="1"/>
-      <node ref="U2" pin="23"/>
-    </net>
-    <net code="39" name="Net-(C5-Pad1)">
-      <node ref="U2" pin="24"/>
-      <node ref="C5" pin="1"/>
-    </net>
-    <net code="40" name="Net-(R5-Pad1)">
+    <net code="6" name="Net-(R5-Pad1)">
       <node ref="R5" pin="1"/>
       <node ref="U2" pin="37"/>
     </net>
-    <net code="41" name="/VINT">
-      <node ref="C2" pin="1"/>
+    <net code="7" name="+3.0VA">
+      <node ref="U4" pin="81"/>
+      <node ref="C19" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="C65" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="8" name="Net-(C20-Pad2)">
+      <node ref="JP1" pin="2"/>
+      <node ref="U2" pin="11"/>
+      <node ref="C20" pin="2"/>
+    </net>
+    <net code="9" name="Net-(L2-Pad1)">
+      <node ref="U2" pin="8"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="10" name="Net-(L3-Pad1)">
+      <node ref="U2" pin="15"/>
+      <node ref="L3" pin="1"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad29)">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="12" name="Net-(R1-Pad1)">
+      <node ref="SW2" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="13" name="PIN4/TWI0-SCK">
+      <node ref="R10" pin="1"/>
+      <node ref="P17" pin="5"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U4" pin="101"/>
+    </net>
+    <net code="14" name="Net-(D1-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="15" name="/VINT">
       <node ref="U2" pin="27"/>
       <node ref="U2" pin="26"/>
+      <node ref="C2" pin="1"/>
     </net>
-    <net code="42" name="Net-(C4-Pad1)">
+    <net code="16" name="1.2V_INT">
+      <node ref="C48" pin="1"/>
+      <node ref="L3" pin="2"/>
+      <node ref="U4" pin="35"/>
+      <node ref="U4" pin="149"/>
+      <node ref="U4" pin="98"/>
+      <node ref="C49" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="C50" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="U4" pin="109"/>
+      <node ref="U4" pin="73"/>
+      <node ref="U2" pin="17"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="17" name="PIN5/TWI0-SDA">
+      <node ref="R3" pin="1"/>
+      <node ref="U4" pin="102"/>
+      <node ref="P17" pin="7"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="18" name="1.2V_CPU">
+      <node ref="C38" pin="1"/>
+      <node ref="U4" pin="169"/>
+      <node ref="U4" pin="173"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="156"/>
+      <node ref="U4" pin="164"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U2" pin="10"/>
+      <node ref="P4" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C39" pin="1"/>
+    </net>
+    <net code="19" name="Net-(U2-Pad30)">
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="20" name="Net-(U2-Pad36)">
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="21" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="22" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="23" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="24" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="25" name="Net-(C4-Pad1)">
       <node ref="C4" pin="1"/>
       <node ref="R7" pin="2"/>
     </net>
-    <net code="43" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1"/>
-      <node ref="R6" pin="2"/>
+    <net code="26" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="47"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="44" name="/mpu_ddr3/PIN4/TWI0-SCA">
-      <node ref="U2" pin="2"/>
-      <node ref="R10" pin="1"/>
-      <node ref="U4" pin="101"/>
+    <net code="27" name="Net-(R4-Pad2)">
+      <node ref="SW1" pin="2"/>
+      <node ref="R4" pin="2"/>
     </net>
-    <net code="45" name="Net-(L2-Pad1)">
-      <node ref="L2" pin="1"/>
-      <node ref="U2" pin="8"/>
+    <net code="28" name="/mpu_ddr3/RESET_N">
+      <node ref="U2" pin="25"/>
+      <node ref="C28" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U4" pin="159"/>
     </net>
-    <net code="46" name="Net-(R1-Pad2)">
-      <node ref="U2" pin="4"/>
-      <node ref="R1" pin="2"/>
-      <node ref="SW2" pin="1"/>
+    <net code="29" name="Net-(C5-Pad1)">
+      <node ref="U2" pin="24"/>
+      <node ref="C5" pin="1"/>
     </net>
-    <net code="47" name="/EXTEN">
+    <net code="30" name="Net-(L4-Pad1)">
+      <node ref="L4" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad42)">
+      <node ref="U2" pin="42"/>
+    </net>
+    <net code="32" name="/EXTEN">
       <node ref="U2" pin="20"/>
+      <node ref="U3" pin="4"/>
     </net>
-    <net code="48" name="+5V">
-      <node ref="F1" pin="2"/>
+    <net code="33" name="+5V">
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="1"/>
       <node ref="R6" pin="1"/>
+      <node ref="P7" pin="1"/>
+      <node ref="P17" pin="1"/>
       <node ref="R15" pin="1"/>
+      <node ref="P16" pin="1"/>
       <node ref="U2" pin="32"/>
       <node ref="U2" pin="33"/>
-      <node ref="P16" pin="1"/>
-      <node ref="P7" pin="1"/>
     </net>
-    <net code="49" name="Net-(R66-Pad2)">
-      <node ref="R66" pin="2"/>
-      <node ref="U4" pin="17"/>
+    <net code="34" name="Net-(D2-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="50" name="Net-(C46-Pad1)">
-      <node ref="C55" pin="1"/>
-      <node ref="U4" pin="82"/>
-      <node ref="R17" pin="1"/>
-      <node ref="C46" pin="1"/>
+    <net code="35" name="/mpu_ddr3/NMI_N">
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="48"/>
+      <node ref="U4" pin="158"/>
     </net>
-    <net code="51" name="Net-(C54-Pad1)">
-      <node ref="C54" pin="1"/>
-      <node ref="U4" pin="83"/>
+    <net code="36" name="/VDD_RTC">
+      <node ref="C18" pin="2"/>
+      <node ref="U2" pin="28"/>
+      <node ref="P2" pin="1"/>
     </net>
-    <net code="52" name="Net-(C45-Pad1)">
-      <node ref="C45" pin="1"/>
-      <node ref="C53" pin="1"/>
-      <node ref="U4" pin="80"/>
+    <net code="37" name="/3V3_WIFI">
+      <node ref="C16" pin="2"/>
+      <node ref="U2" pin="41"/>
     </net>
-    <net code="53" name="Net-(C60-Pad1)">
-      <node ref="C60" pin="1"/>
-      <node ref="X1" pin="2"/>
-      <node ref="U4" pin="91"/>
+    <net code="38" name="/mpu_ddr3/+5V_USB_OTG">
+      <node ref="U2" pin="31"/>
+      <node ref="P19" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C97" pin="1"/>
+      <node ref="L9" pin="2"/>
+      <node ref="P1" pin="1"/>
     </net>
-    <net code="54" name="Net-(C59-Pad1)">
-      <node ref="U4" pin="92"/>
-      <node ref="X1" pin="1"/>
-      <node ref="C59" pin="1"/>
+    <net code="39" name="+1.5V">
+      <node ref="R19" pin="1"/>
+      <node ref="U5" pin="D2"/>
+      <node ref="C70" pin="1"/>
+      <node ref="C71" pin="1"/>
+      <node ref="C80" pin="1"/>
+      <node ref="C72" pin="1"/>
+      <node ref="C73" pin="1"/>
+      <node ref="C74" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U5" pin="R1"/>
+      <node ref="U5" pin="N9"/>
+      <node ref="U5" pin="R9"/>
+      <node ref="U5" pin="N1"/>
+      <node ref="U5" pin="H9"/>
+      <node ref="U5" pin="E9"/>
+      <node ref="U5" pin="D9"/>
+      <node ref="U5" pin="C9"/>
+      <node ref="U5" pin="K8"/>
+      <node ref="C58" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U5" pin="A1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="U5" pin="A8"/>
+      <node ref="U5" pin="G7"/>
+      <node ref="C61" pin="1"/>
+      <node ref="U5" pin="C1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="C51" pin="1"/>
+      <node ref="U5" pin="B2"/>
+      <node ref="P6" pin="1"/>
+      <node ref="C86" pin="1"/>
+      <node ref="C82" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C84" pin="1"/>
+      <node ref="C83" pin="1"/>
+      <node ref="C85" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C93" pin="1"/>
+      <node ref="U4" pin="30"/>
+      <node ref="R68" pin="1"/>
+      <node ref="C68" pin="1"/>
+      <node ref="U4" pin="53"/>
+      <node ref="U4" pin="23"/>
+      <node ref="C91" pin="1"/>
+      <node ref="U4" pin="43"/>
+      <node ref="U5" pin="K2"/>
+      <node ref="U5" pin="H2"/>
+      <node ref="C90" pin="1"/>
+      <node ref="C92" pin="1"/>
+      <node ref="C62" pin="1"/>
+      <node ref="C88" pin="1"/>
+      <node ref="C87" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C89" pin="1"/>
+      <node ref="U4" pin="62"/>
     </net>
-    <net code="55" name="Net-(R26-Pad1)">
+    <net code="40" name="Net-(C11-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="41" name="Net-(L1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(U2-Pad43)">
+      <node ref="U2" pin="43"/>
+    </net>
+    <net code="43" name="Net-(C14-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad38)">
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="45" name="Net-(U2-Pad39)">
+      <node ref="U2" pin="39"/>
+    </net>
+    <net code="46" name="Net-(U2-Pad45)">
+      <node ref="U2" pin="45"/>
+    </net>
+    <net code="47" name="Net-(U5-PadJ9)">
+      <node ref="U5" pin="J9"/>
+    </net>
+    <net code="48" name="Net-(U5-PadL9)">
+      <node ref="U5" pin="L9"/>
+    </net>
+    <net code="49" name="Net-(R26-Pad1)">
       <node ref="U5" pin="L8"/>
       <node ref="R26" pin="1"/>
     </net>
-    <net code="56" name="Net-(U5-PadT7)">
+    <net code="50" name="Net-(U5-PadL1)">
+      <node ref="U5" pin="L1"/>
+    </net>
+    <net code="51" name="Net-(U5-PadJ1)">
+      <node ref="U5" pin="J1"/>
+    </net>
+    <net code="52" name="Net-(U5-PadT7)">
       <node ref="U5" pin="T7"/>
     </net>
-    <net code="57" name="Net-(U5-PadM7)">
+    <net code="53" name="Net-(U5-PadM7)">
       <node ref="U5" pin="M7"/>
     </net>
-    <net code="58" name="/mpu_ddr3/D0">
-      <node ref="RP2" pin="1"/>
-      <node ref="U5" pin="E3"/>
+    <net code="54" name="/mpu_ddr3/SDM1">
+      <node ref="R29" pin="2"/>
+      <node ref="U4" pin="28"/>
     </net>
-    <net code="59" name="/mpu_ddr3/DQS1N">
-      <node ref="R34" pin="2"/>
-      <node ref="U5" pin="B7"/>
-    </net>
-    <net code="60" name="Net-(U5-PadL9)">
-      <node ref="U5" pin="L9"/>
-    </net>
-    <net code="61" name="Net-(U5-PadJ9)">
-      <node ref="U5" pin="J9"/>
-    </net>
-    <net code="62" name="Net-(RP10-Pad7)">
-      <node ref="RP10" pin="7"/>
-    </net>
-    <net code="63" name="Net-(C79-Pad1)">
-      <node ref="C79" pin="1"/>
-      <node ref="R16" pin="1"/>
-      <node ref="R56" pin="2"/>
-    </net>
-    <net code="64" name="Net-(R56-Pad1)">
-      <node ref="SW3" pin="2"/>
-      <node ref="R56" pin="1"/>
-      <node ref="R70" pin="2"/>
-    </net>
-    <net code="65" name="Net-(R72-Pad1)">
-      <node ref="SW6" pin="2"/>
-      <node ref="R72" pin="1"/>
-      <node ref="R73" pin="2"/>
-    </net>
-    <net code="66" name="Net-(R71-Pad1)">
-      <node ref="R72" pin="2"/>
-      <node ref="SW5" pin="2"/>
-      <node ref="R71" pin="1"/>
-    </net>
-    <net code="67" name="Net-(R70-Pad1)">
-      <node ref="SW4" pin="2"/>
-      <node ref="R70" pin="1"/>
-      <node ref="R71" pin="2"/>
-    </net>
-    <net code="68" name="/mpu_ddr3/VREF">
-      <node ref="C31" pin="1"/>
-      <node ref="C69" pin="1"/>
-      <node ref="U5" pin="M8"/>
-      <node ref="R69" pin="1"/>
-      <node ref="C68" pin="2"/>
-      <node ref="R68" pin="2"/>
-      <node ref="U5" pin="H1"/>
-    </net>
-    <net code="69" name="Net-(P7-Pad22)">
-      <node ref="P7" pin="22"/>
-    </net>
-    <net code="70" name="Net-(P7-Pad14)">
+    <net code="55" name="Net-(P7-Pad14)">
       <node ref="P7" pin="14"/>
     </net>
-    <net code="71" name="Net-(P7-Pad6)">
+    <net code="56" name="Net-(P7-Pad22)">
+      <node ref="P7" pin="22"/>
+    </net>
+    <net code="57" name="Net-(P7-Pad6)">
       <node ref="P7" pin="6"/>
     </net>
-    <net code="72" name="/mpu_ddr3/TPX2">
-      <node ref="C63" pin="1"/>
+    <net code="58" name="/mpu_ddr3/LCD_D19">
+      <node ref="U4" pin="134"/>
+      <node ref="P7" pin="8"/>
+    </net>
+    <net code="59" name="/mpu_ddr3/LCD_D18">
+      <node ref="P7" pin="7"/>
+      <node ref="U4" pin="135"/>
+      <node ref="P7" pin="5"/>
+    </net>
+    <net code="60" name="Net-(C79-Pad1)">
+      <node ref="C79" pin="1"/>
+      <node ref="R56" pin="2"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="61" name="Net-(R56-Pad1)">
+      <node ref="R56" pin="1"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="R70" pin="2"/>
+    </net>
+    <net code="62" name="Net-(R70-Pad1)">
+      <node ref="R70" pin="1"/>
+      <node ref="R71" pin="2"/>
+      <node ref="SW4" pin="2"/>
+    </net>
+    <net code="63" name="Net-(R71-Pad1)">
+      <node ref="SW5" pin="2"/>
+      <node ref="R72" pin="2"/>
+      <node ref="R71" pin="1"/>
+    </net>
+    <net code="64" name="Net-(R72-Pad1)">
+      <node ref="R72" pin="1"/>
+      <node ref="R73" pin="2"/>
+      <node ref="SW6" pin="2"/>
+    </net>
+    <net code="65" name="/mpu_ddr3/A10">
+      <node ref="U5" pin="L7"/>
+      <node ref="RA9" pin="7"/>
+    </net>
+    <net code="66" name="/mpu_ddr3/A3">
+      <node ref="U5" pin="N2"/>
+      <node ref="RA5" pin="8"/>
+    </net>
+    <net code="67" name="/mpu_ddr3/A4">
+      <node ref="RA8" pin="8"/>
+      <node ref="U5" pin="P8"/>
+    </net>
+    <net code="68" name="/mpu_ddr3/A5">
+      <node ref="RA5" pin="6"/>
+      <node ref="U5" pin="P2"/>
+    </net>
+    <net code="69" name="/mpu_ddr3/A6">
+      <node ref="U5" pin="R8"/>
+      <node ref="RA8" pin="6"/>
+    </net>
+    <net code="70" name="/mpu_ddr3/A7">
+      <node ref="U5" pin="R2"/>
+      <node ref="RA7" pin="6"/>
+    </net>
+    <net code="71" name="/mpu_ddr3/A8">
+      <node ref="U5" pin="T8"/>
+      <node ref="RA8" pin="5"/>
+    </net>
+    <net code="72" name="/mpu_ddr3/A9">
+      <node ref="U5" pin="R3"/>
+      <node ref="RA7" pin="8"/>
+    </net>
+    <net code="73" name="/mpu_ddr3/A2">
+      <node ref="U5" pin="P3"/>
+      <node ref="RA5" pin="7"/>
+    </net>
+    <net code="74" name="/mpu_ddr3/A11">
+      <node ref="U5" pin="R7"/>
+      <node ref="RA10" pin="8"/>
+    </net>
+    <net code="75" name="/mpu_ddr3/A12">
+      <node ref="RA9" pin="5"/>
+      <node ref="U5" pin="N7"/>
+    </net>
+    <net code="76" name="/mpu_ddr3/A13">
+      <node ref="RA5" pin="5"/>
+      <node ref="U5" pin="T3"/>
+    </net>
+    <net code="77" name="Net-(RA10-Pad7)">
+      <node ref="RA10" pin="7"/>
+    </net>
+    <net code="78" name="/mpu_ddr3/D0">
+      <node ref="U5" pin="E3"/>
+      <node ref="RA2" pin="1"/>
+    </net>
+    <net code="79" name="/mpu_ddr3/D1">
+      <node ref="RA3" pin="8"/>
+      <node ref="U5" pin="F7"/>
+    </net>
+    <net code="80" name="/mpu_ddr3/D2">
+      <node ref="RA2" pin="2"/>
+      <node ref="U5" pin="F2"/>
+    </net>
+    <net code="81" name="/mpu_ddr3/D3">
+      <node ref="RA3" pin="7"/>
+      <node ref="U5" pin="F8"/>
+    </net>
+    <net code="82" name="/mpu_ddr3/A1">
+      <node ref="U5" pin="P7"/>
+      <node ref="RA8" pin="7"/>
+    </net>
+    <net code="83" name="/mpu_ddr3/A0">
+      <node ref="RA6" pin="5"/>
+      <node ref="U5" pin="N3"/>
+    </net>
+    <net code="84" name="/mpu_ddr3/ODT">
+      <node ref="RA7" pin="5"/>
+      <node ref="U5" pin="K1"/>
+    </net>
+    <net code="85" name="/mpu_ddr3/CK">
+      <node ref="U5" pin="J7"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="86" name="/mpu_ddr3/CKN">
+      <node ref="R28" pin="1"/>
+      <node ref="U5" pin="K7"/>
+    </net>
+    <net code="87" name="/mpu_ddr3/CKE">
+      <node ref="RA9" pin="8"/>
+      <node ref="U5" pin="K9"/>
+    </net>
+    <net code="88" name="/mpu_ddr3/DQS0">
+      <node ref="U5" pin="F3"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="89" name="/mpu_ddr3/DQS0N">
+      <node ref="R32" pin="1"/>
+      <node ref="U5" pin="G3"/>
+    </net>
+    <net code="90" name="/mpu_ddr3/DQS1">
+      <node ref="U5" pin="C7"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="91" name="/mpu_ddr3/DQS1N">
+      <node ref="R34" pin="1"/>
+      <node ref="U5" pin="B7"/>
+    </net>
+    <net code="92" name="/mpu_ddr3/DM0">
+      <node ref="R30" pin="1"/>
+      <node ref="U5" pin="E7"/>
+    </net>
+    <net code="93" name="/mpu_ddr3/DM1">
+      <node ref="R29" pin="1"/>
+      <node ref="U5" pin="D3"/>
+    </net>
+    <net code="94" name="/mpu_ddr3/WE">
+      <node ref="U5" pin="L3"/>
+      <node ref="RA6" pin="8"/>
+    </net>
+    <net code="95" name="/mpu_ddr3/RAS">
+      <node ref="U5" pin="J3"/>
+      <node ref="RA10" pin="6"/>
+    </net>
+    <net code="96" name="/mpu_ddr3/CAS">
+      <node ref="U5" pin="K3"/>
+      <node ref="RA10" pin="5"/>
+    </net>
+    <net code="97" name="/mpu_ddr3/RESET">
+      <node ref="RA7" pin="7"/>
+      <node ref="U5" pin="T2"/>
+    </net>
+    <net code="98" name="/mpu_ddr3/BA2">
+      <node ref="U5" pin="M3"/>
+      <node ref="RA6" pin="7"/>
+    </net>
+    <net code="99" name="/mpu_ddr3/BA1">
+      <node ref="U5" pin="N8"/>
+      <node ref="RA9" pin="6"/>
+    </net>
+    <net code="100" name="/mpu_ddr3/BA0">
+      <node ref="RA6" pin="6"/>
+      <node ref="U5" pin="M2"/>
+    </net>
+    <net code="101" name="/mpu_ddr3/D15">
+      <node ref="RA4" pin="5"/>
+      <node ref="U5" pin="A3"/>
+    </net>
+    <net code="102" name="/mpu_ddr3/D14">
+      <node ref="RA1" pin="6"/>
+      <node ref="U5" pin="B8"/>
+    </net>
+    <net code="103" name="/mpu_ddr3/D13">
+      <node ref="U5" pin="A2"/>
+      <node ref="RA4" pin="6"/>
+    </net>
+    <net code="104" name="/mpu_ddr3/D12">
+      <node ref="U5" pin="A7"/>
+      <node ref="RA1" pin="8"/>
+    </net>
+    <net code="105" name="/mpu_ddr3/D11">
+      <node ref="U5" pin="C2"/>
+      <node ref="RA4" pin="8"/>
+    </net>
+    <net code="106" name="/mpu_ddr3/D10">
+      <node ref="RA1" pin="5"/>
+      <node ref="U5" pin="C8"/>
+    </net>
+    <net code="107" name="/mpu_ddr3/D9">
+      <node ref="RA4" pin="7"/>
+      <node ref="U5" pin="C3"/>
+    </net>
+    <net code="108" name="/mpu_ddr3/D8">
+      <node ref="U5" pin="D7"/>
+      <node ref="RA1" pin="7"/>
+    </net>
+    <net code="109" name="/mpu_ddr3/D7">
+      <node ref="U5" pin="H7"/>
+      <node ref="RA3" pin="6"/>
+    </net>
+    <net code="110" name="/mpu_ddr3/D6">
+      <node ref="RA2" pin="3"/>
+      <node ref="U5" pin="G2"/>
+    </net>
+    <net code="111" name="/mpu_ddr3/D5">
+      <node ref="U5" pin="H8"/>
+      <node ref="RA3" pin="5"/>
+    </net>
+    <net code="112" name="/mpu_ddr3/D4">
+      <node ref="U5" pin="H3"/>
+      <node ref="RA2" pin="4"/>
+    </net>
+    <net code="113" name="Net-(R37-Pad1)">
+      <node ref="R37" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="114" name="Net-(L5-Pad1)">
+      <node ref="U6" pin="6"/>
+      <node ref="L5" pin="1"/>
+    </net>
+    <net code="115" name="Net-(C96-Pad1)">
+      <node ref="C96" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="116" name="Net-(R38-Pad1)">
+      <node ref="R38" pin="1"/>
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="117" name="/mpu_ddr3/PIN15/NCE1">
+      <node ref="P17" pin="27"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="118" name="Net-(U4-Pad160)">
+      <node ref="U4" pin="160"/>
+    </net>
+    <net code="119" name="/mpu_ddr3/PIN12/NWE">
+      <node ref="P17" pin="21"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="120" name="/mpu_ddr3/PIN13/NALE">
+      <node ref="P17" pin="23"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="121" name="/mpu_ddr3/PIN14/NCLE">
+      <node ref="P17" pin="25"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="122" name="Net-(U4-Pad161)">
+      <node ref="U4" pin="161"/>
+    </net>
+    <net code="123" name="/mpu_ddr3/PIN16/NCE0">
+      <node ref="U4" pin="2"/>
+      <node ref="P17" pin="29"/>
+    </net>
+    <net code="124" name="/mpu_ddr3/PIN17/NRE">
+      <node ref="P17" pin="31"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="125" name="/mpu_ddr3/PIN18/NRB0">
+      <node ref="P17" pin="33"/>
+      <node ref="U4" pin="176"/>
+    </net>
+    <net code="126" name="/mpu_ddr3/PIN19/NRB1">
+      <node ref="P17" pin="35"/>
+      <node ref="U4" pin="175"/>
+    </net>
+    <net code="127" name="/mpu_ddr3/PIN11/TWI1-SDA">
+      <node ref="U4" pin="106"/>
+      <node ref="P17" pin="19"/>
+    </net>
+    <net code="128" name="/mpu_ddr3/PIN10/TWI1-SCK">
+      <node ref="U4" pin="105"/>
+      <node ref="P17" pin="17"/>
+    </net>
+    <net code="129" name="/mpu_ddr3/PIN9">
+      <node ref="P7" pin="35"/>
+      <node ref="P17" pin="15"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="130" name="/mpu_ddr3/PIN8">
+      <node ref="P17" pin="13"/>
+      <node ref="U4" pin="104"/>
+      <node ref="P7" pin="34"/>
+    </net>
+    <net code="131" name="/mpu_ddr3/PIN7">
+      <node ref="P7" pin="33"/>
+      <node ref="U4" pin="150"/>
+      <node ref="P17" pin="11"/>
+    </net>
+    <net code="132" name="/mpu_ddr3/PIN6/PWM0">
+      <node ref="P17" pin="9"/>
+      <node ref="P7" pin="36"/>
+      <node ref="U4" pin="103"/>
+    </net>
+    <net code="133" name="/mpu_ddr3/PIN30">
+      <node ref="P17" pin="24"/>
+      <node ref="U4" pin="119"/>
+    </net>
+    <net code="134" name="/mpu_ddr3/PIN31">
+      <node ref="U4" pin="120"/>
+      <node ref="P17" pin="22"/>
+    </net>
+    <net code="135" name="/mpu_ddr3/PIN28/NDQS">
+      <node ref="P17" pin="28"/>
+      <node ref="U4" pin="162"/>
+    </net>
+    <net code="136" name="/mpu_ddr3/PIN37">
+      <node ref="P17" pin="10"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="137" name="/mpu_ddr3/PIN27/NDQ7">
+      <node ref="U4" pin="165"/>
+      <node ref="P17" pin="30"/>
+    </net>
+    <net code="138" name="Net-(C78-Pad1)">
+      <node ref="P18" pin="1"/>
+      <node ref="C78" pin="1"/>
+      <node ref="L5" pin="2"/>
+    </net>
+    <net code="139" name="/mpu_ddr3/PIN26/NDQ6">
+      <node ref="U4" pin="166"/>
+      <node ref="P17" pin="32"/>
+    </net>
+    <net code="140" name="/mpu_ddr3/PIN25/NDQ5">
+      <node ref="U4" pin="167"/>
+      <node ref="P17" pin="34"/>
+    </net>
+    <net code="141" name="/mpu_ddr3/PIN24/NDQ4">
+      <node ref="P17" pin="36"/>
+      <node ref="U4" pin="168"/>
+    </net>
+    <net code="142" name="/mpu_ddr3/PIN23/NDQ3">
+      <node ref="P17" pin="38"/>
+      <node ref="U4" pin="170"/>
+    </net>
+    <net code="143" name="/mpu_ddr3/PIN22/NDQ2">
+      <node ref="U4" pin="171"/>
+      <node ref="P17" pin="40"/>
+    </net>
+    <net code="144" name="/mpu_ddr3/PIN21/NDQ1">
+      <node ref="U4" pin="172"/>
+      <node ref="P17" pin="39"/>
+    </net>
+    <net code="145" name="/mpu_ddr3/PIN20/NDQ0">
+      <node ref="P17" pin="37"/>
+      <node ref="U4" pin="174"/>
+    </net>
+    <net code="146" name="Net-(C95-Pad1)">
+      <node ref="C95" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="R39" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="147" name="/mpu_ddr3/USB0_DRV">
+      <node ref="R36" pin="2"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="148" name="IPSOUT">
+      <node ref="U2" pin="14"/>
+      <node ref="U2" pin="34"/>
+      <node ref="C8" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C67" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="C76" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U2" pin="44"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U2" pin="35"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U2" pin="13"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="40"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U2" pin="21"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="149" name="/mpu_ddr3/PIN33">
+      <node ref="U4" pin="122"/>
+      <node ref="P17" pin="18"/>
+    </net>
+    <net code="150" name="Net-(L9-Pad1)">
+      <node ref="L9" pin="1"/>
+      <node ref="R40" pin="1"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="151" name="/mpu_ddr3/SD0_CARD_DETECT">
+      <node ref="U4" pin="155"/>
+      <node ref="R20" pin="2"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="152" name="/mpu_ddr3/SDC0_SCK">
+      <node ref="P9" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U4" pin="110"/>
+    </net>
+    <net code="153" name="/mpu_ddr3/UBOOT">
+      <node ref="SW7" pin="2"/>
+      <node ref="U4" pin="157"/>
+      <node ref="R73" pin="1"/>
+    </net>
+    <net code="154" name="/mpu_ddr3/SDC0_CMD">
+      <node ref="P8" pin="5"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U4" pin="111"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="155" name="/mpu_ddr3/SDC0_DATA0">
+      <node ref="P8" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="J2" pin="7"/>
+      <node ref="U4" pin="108"/>
+    </net>
+    <net code="156" name="/mpu_ddr3/SDC0_DATA1">
+      <node ref="R21" pin="2"/>
+      <node ref="J2" pin="8"/>
+      <node ref="P8" pin="3"/>
+      <node ref="U4" pin="107"/>
+    </net>
+    <net code="157" name="/mpu_ddr3/SDC0_DATA2">
+      <node ref="J2" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="P8" pin="4"/>
+      <node ref="U4" pin="113"/>
+    </net>
+    <net code="158" name="/mpu_ddr3/SDC0_DATA3">
+      <node ref="J2" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="P9" pin="3"/>
+      <node ref="U4" pin="112"/>
+    </net>
+    <net code="159" name="Net-(U4-Pad86)">
+      <node ref="U4" pin="86"/>
+    </net>
+    <net code="160" name="Net-(U4-Pad78)">
+      <node ref="U4" pin="78"/>
+    </net>
+    <net code="161" name="/mpu_ddr3/UART1_TX">
+      <node ref="P10" pin="2"/>
+      <node ref="U4" pin="152"/>
+    </net>
+    <net code="162" name="/mpu_ddr3/UART1_RX">
+      <node ref="P10" pin="3"/>
+      <node ref="U4" pin="151"/>
+    </net>
+    <net code="163" name="/mpu_ddr3/LCD_D12">
+      <node ref="P7" pin="17"/>
+      <node ref="U4" pin="139"/>
+    </net>
+    <net code="164" name="/mpu_ddr3/LCD_D14">
+      <node ref="P7" pin="19"/>
+      <node ref="U4" pin="137"/>
+    </net>
+    <net code="165" name="/mpu_ddr3/LCD_D13">
+      <node ref="P7" pin="18"/>
+      <node ref="U4" pin="138"/>
+    </net>
+    <net code="166" name="/mpu_ddr3/LCD_D15">
+      <node ref="U4" pin="136"/>
+      <node ref="P7" pin="20"/>
+    </net>
+    <net code="167" name="/mpu_ddr3/LCD_D20">
+      <node ref="U4" pin="133"/>
+      <node ref="P7" pin="9"/>
+    </net>
+    <net code="168" name="/mpu_ddr3/LCD_CLK">
+      <node ref="P7" pin="31"/>
+      <node ref="U4" pin="129"/>
+    </net>
+    <net code="169" name="/mpu_ddr3/LCD_DE">
+      <node ref="P7" pin="32"/>
+      <node ref="U4" pin="128"/>
+    </net>
+    <net code="170" name="/mpu_ddr3/LCD_HSYNC">
+      <node ref="P7" pin="29"/>
+      <node ref="U4" pin="127"/>
+    </net>
+    <net code="171" name="/mpu_ddr3/LCD_VSYNC">
+      <node ref="P7" pin="30"/>
+      <node ref="U4" pin="126"/>
+    </net>
+    <net code="172" name="/mpu_ddr3/LCD_D10">
+      <node ref="P7" pin="13"/>
+      <node ref="P7" pin="15"/>
+      <node ref="U4" pin="141"/>
+    </net>
+    <net code="173" name="/mpu_ddr3/LCD_D7">
+      <node ref="P7" pin="28"/>
+      <node ref="U4" pin="143"/>
+    </net>
+    <net code="174" name="/mpu_ddr3/LCD_D6">
+      <node ref="U4" pin="144"/>
+      <node ref="P7" pin="27"/>
+    </net>
+    <net code="175" name="/mpu_ddr3/LCD_D5">
+      <node ref="P7" pin="26"/>
+      <node ref="U4" pin="145"/>
+    </net>
+    <net code="176" name="/mpu_ddr3/LCD_D4">
+      <node ref="P7" pin="25"/>
+      <node ref="U4" pin="146"/>
+    </net>
+    <net code="177" name="/mpu_ddr3/LCD_D3">
+      <node ref="P7" pin="24"/>
+      <node ref="U4" pin="147"/>
+    </net>
+    <net code="178" name="/mpu_ddr3/LCD_D2">
+      <node ref="P7" pin="21"/>
+      <node ref="U4" pin="148"/>
+      <node ref="P7" pin="23"/>
+    </net>
+    <net code="179" name="Net-(U4-Pad74)">
+      <node ref="U4" pin="74"/>
+    </net>
+    <net code="180" name="Net-(U4-Pad75)">
+      <node ref="U4" pin="75"/>
+    </net>
+    <net code="181" name="Net-(U4-Pad76)">
+      <node ref="U4" pin="76"/>
+    </net>
+    <net code="182" name="Net-(U4-Pad77)">
+      <node ref="U4" pin="77"/>
+    </net>
+    <net code="183" name="/mpu_ddr3/UDP1">
+      <node ref="P18" pin="3"/>
+      <node ref="U4" pin="96"/>
+    </net>
+    <net code="184" name="/mpu_ddr3/UDM1">
+      <node ref="U4" pin="95"/>
+      <node ref="P18" pin="2"/>
+    </net>
+    <net code="185" name="/mpu_ddr3/UDM0">
+      <node ref="P19" pin="2"/>
+      <node ref="U4" pin="93"/>
+    </net>
+    <net code="186" name="/mpu_ddr3/UDP0">
+      <node ref="U4" pin="94"/>
+      <node ref="P19" pin="3"/>
+    </net>
+    <net code="187" name="Net-(L7-Pad2)">
+      <node ref="L7" pin="2"/>
+      <node ref="P18" pin="5"/>
+    </net>
+    <net code="188" name="/mpu_ddr3/PIN29">
+      <node ref="P17" pin="26"/>
+      <node ref="U4" pin="118"/>
+    </net>
+    <net code="189" name="/mpu_ddr3/PIN38/VGA_DIS">
+      <node ref="U4" pin="13"/>
+      <node ref="P17" pin="8"/>
+    </net>
+    <net code="190" name="Net-(U4-Pad114)">
+      <node ref="U4" pin="114"/>
+    </net>
+    <net code="191" name="Net-(U4-Pad115)">
+      <node ref="U4" pin="115"/>
+    </net>
+    <net code="192" name="Net-(U4-Pad116)">
+      <node ref="U4" pin="116"/>
+    </net>
+    <net code="193" name="Net-(U4-Pad117)">
+      <node ref="U4" pin="117"/>
+    </net>
+    <net code="194" name="/mpu_ddr3/PIN39/USBH_EN">
+      <node ref="P17" pin="6"/>
+      <node ref="R39" pin="2"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="195" name="/mpu_ddr3/PIN36">
+      <node ref="P17" pin="12"/>
+      <node ref="U4" pin="125"/>
+    </net>
+    <net code="196" name="/mpu_ddr3/PIN35">
+      <node ref="P17" pin="14"/>
+      <node ref="U4" pin="124"/>
+    </net>
+    <net code="197" name="/mpu_ddr3/PIN34">
+      <node ref="P17" pin="16"/>
+      <node ref="U4" pin="123"/>
+    </net>
+    <net code="198" name="/mpu_ddr3/USB0_VBUSDET">
+      <node ref="R40" pin="2"/>
+      <node ref="C75" pin="1"/>
+      <node ref="R42" pin="1"/>
+      <node ref="U4" pin="154"/>
+    </net>
+    <net code="199" name="/mpu_ddr3/USB0_IDDET">
+      <node ref="R41" pin="2"/>
+      <node ref="U4" pin="153"/>
+      <node ref="P19" pin="4"/>
+    </net>
+    <net code="200" name="Net-(L8-Pad2)">
+      <node ref="L8" pin="2"/>
+      <node ref="P19" pin="6"/>
+    </net>
+    <net code="201" name="/mpu_ddr3/VREF">
+      <node ref="C69" pin="1"/>
+      <node ref="R69" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R68" pin="2"/>
+      <node ref="C68" pin="2"/>
+      <node ref="U5" pin="H1"/>
+      <node ref="U5" pin="M8"/>
+    </net>
+    <net code="202" name="/mpu_ddr3/SDM0">
+      <node ref="R30" pin="2"/>
+      <node ref="U4" pin="29"/>
+    </net>
+    <net code="203" name="/mpu_ddr3/SDQS1N">
+      <node ref="R34" pin="2"/>
+      <node ref="U4" pin="34"/>
+    </net>
+    <net code="204" name="/mpu_ddr3/SDQS1">
+      <node ref="R33" pin="2"/>
+      <node ref="U4" pin="33"/>
+    </net>
+    <net code="205" name="/mpu_ddr3/SDQS0N">
+      <node ref="U4" pin="32"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="206" name="/mpu_ddr3/SDQS0">
+      <node ref="R31" pin="2"/>
+      <node ref="U4" pin="31"/>
+    </net>
+    <net code="207" name="/mpu_ddr3/SCKN">
+      <node ref="U4" pin="46"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="208" name="/mpu_ddr3/SCK">
+      <node ref="U4" pin="45"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="209" name="Net-(C59-Pad1)">
+      <node ref="C59" pin="1"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="U4" pin="92"/>
+    </net>
+    <net code="210" name="Net-(C60-Pad1)">
+      <node ref="Y1" pin="3"/>
+      <node ref="U4" pin="91"/>
+      <node ref="C60" pin="1"/>
+    </net>
+    <net code="211" name="Net-(C46-Pad1)">
+      <node ref="C46" pin="1"/>
+      <node ref="U4" pin="82"/>
+      <node ref="C55" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="212" name="Net-(C54-Pad1)">
+      <node ref="C54" pin="1"/>
+      <node ref="U4" pin="83"/>
+    </net>
+    <net code="213" name="Net-(C45-Pad1)">
+      <node ref="U4" pin="80"/>
+      <node ref="C53" pin="1"/>
+      <node ref="C45" pin="1"/>
+    </net>
+    <net code="214" name="/mpu_ddr3/TPX2">
       <node ref="P7" pin="38"/>
+      <node ref="C63" pin="1"/>
       <node ref="U4" pin="87"/>
     </net>
-    <net code="73" name="/mpu_ddr3/TPY2">
+    <net code="215" name="/mpu_ddr3/TPY2">
       <node ref="P7" pin="40"/>
       <node ref="U4" pin="88"/>
       <node ref="C56" pin="1"/>
     </net>
-    <net code="74" name="/mpu_ddr3/TPY1">
-      <node ref="U4" pin="90"/>
+    <net code="216" name="/mpu_ddr3/TPX1">
+      <node ref="P7" pin="37"/>
+      <node ref="C64" pin="1"/>
+      <node ref="U4" pin="89"/>
+    </net>
+    <net code="217" name="/mpu_ddr3/TPY1">
       <node ref="C57" pin="1"/>
+      <node ref="U4" pin="90"/>
       <node ref="P7" pin="39"/>
     </net>
-    <net code="75" name="/mpu_ddr3/TPX1">
-      <node ref="P7" pin="37"/>
-      <node ref="U4" pin="89"/>
-      <node ref="C64" pin="1"/>
+    <net code="218" name="Net-(U4-Pad85)">
+      <node ref="U4" pin="85"/>
     </net>
-    <net code="76" name="/mpu_ddr3/SDC0_DATA0">
-      <node ref="R22" pin="1"/>
-      <node ref="P8" pin="2"/>
-      <node ref="U4" pin="108"/>
-      <node ref="J2" pin="7"/>
+    <net code="219" name="Net-(U4-Pad84)">
+      <node ref="U4" pin="84"/>
     </net>
-    <net code="77" name="/mpu_ddr3/SDC0_DATA2">
-      <node ref="P8" pin="4"/>
-      <node ref="R25" pin="1"/>
-      <node ref="J2" pin="1"/>
-      <node ref="U4" pin="113"/>
+    <net code="220" name="/mpu_ddr3/SA10">
+      <node ref="U4" pin="48"/>
+      <node ref="RA9" pin="2"/>
     </net>
-    <net code="78" name="/mpu_ddr3/SDC0_DATA3">
-      <node ref="J2" pin="2"/>
-      <node ref="R24" pin="1"/>
-      <node ref="U4" pin="112"/>
-      <node ref="P9" pin="3"/>
+    <net code="221" name="/mpu_ddr3/SA5">
+      <node ref="U4" pin="67"/>
+      <node ref="RA5" pin="3"/>
     </net>
-    <net code="79" name="/mpu_ddr3/SDC0_CMD">
-      <node ref="U4" pin="111"/>
-      <node ref="R23" pin="1"/>
-      <node ref="J2" pin="3"/>
-      <node ref="P8" pin="5"/>
+    <net code="222" name="/mpu_ddr3/SD14">
+      <node ref="U4" pin="38"/>
+      <node ref="RA1" pin="3"/>
     </net>
-    <net code="80" name="/mpu_ddr3/SDC0_DATA1">
-      <node ref="R21" pin="1"/>
-      <node ref="P8" pin="3"/>
-      <node ref="U4" pin="107"/>
-      <node ref="J2" pin="8"/>
+    <net code="223" name="/mpu_ddr3/SCKE">
+      <node ref="RA9" pin="1"/>
+      <node ref="U4" pin="47"/>
     </net>
-    <net code="81" name="/mpu_ddr3/UART1_TX">
-      <node ref="U4" pin="152"/>
-      <node ref="P10" pin="2"/>
+    <net code="224" name="/mpu_ddr3/SRAS">
+      <node ref="U4" pin="58"/>
+      <node ref="RA10" pin="3"/>
     </net>
-    <net code="82" name="/mpu_ddr3/UART1_RX">
-      <node ref="P10" pin="3"/>
-      <node ref="U4" pin="151"/>
+    <net code="225" name="/mpu_ddr3/SA13">
+      <node ref="U4" pin="68"/>
+      <node ref="RA5" pin="4"/>
     </net>
-    <net code="83" name="/mpu_ddr3/SD0_CARD_DETECT">
-      <node ref="J2" pin="9"/>
-      <node ref="U4" pin="155"/>
-      <node ref="R20" pin="1"/>
+    <net code="226" name="/mpu_ddr3/SD4">
+      <node ref="U4" pin="19"/>
+      <node ref="RA2" pin="5"/>
     </net>
-    <net code="84" name="/mpu_ddr3/PIN7">
-      <node ref="P7" pin="33"/>
-      <node ref="U4" pin="150"/>
+    <net code="227" name="/mpu_ddr3/SD10">
+      <node ref="RA1" pin="4"/>
+      <node ref="U4" pin="39"/>
     </net>
-    <net code="85" name="/mpu_ddr3/PIN6/PWM0">
-      <node ref="U4" pin="103"/>
-      <node ref="P7" pin="36"/>
+    <net code="228" name="/mpu_ddr3/SD8">
+      <node ref="U4" pin="37"/>
+      <node ref="RA1" pin="2"/>
     </net>
-    <net code="86" name="/mpu_ddr3/LCD_D13">
-      <node ref="U4" pin="138"/>
-      <node ref="P7" pin="18"/>
+    <net code="229" name="/mpu_ddr3/SD15">
+      <node ref="RA4" pin="4"/>
+      <node ref="U4" pin="27"/>
     </net>
-    <net code="87" name="/mpu_ddr3/LCD_VSYNC">
-      <node ref="U4" pin="126"/>
-      <node ref="P7" pin="30"/>
+    <net code="230" name="Net-(R66-Pad2)">
+      <node ref="U4" pin="17"/>
+      <node ref="R66" pin="2"/>
     </net>
-    <net code="88" name="/mpu_ddr3/LCD_HSYNC">
-      <node ref="P7" pin="29"/>
-      <node ref="U4" pin="127"/>
+    <net code="231" name="/mpu_ddr3/SA2">
+      <node ref="U4" pin="66"/>
+      <node ref="RA5" pin="2"/>
     </net>
-    <net code="89" name="/mpu_ddr3/LCD_DE">
-      <node ref="P7" pin="32"/>
-      <node ref="U4" pin="128"/>
+    <net code="232" name="/mpu_ddr3/SD12">
+      <node ref="RA1" pin="1"/>
+      <node ref="U4" pin="36"/>
     </net>
-    <net code="90" name="/mpu_ddr3/LCD_CLK">
-      <node ref="U4" pin="129"/>
-      <node ref="P7" pin="31"/>
+    <net code="233" name="/mpu_ddr3/SD13">
+      <node ref="RA4" pin="3"/>
+      <node ref="U4" pin="26"/>
     </net>
-    <net code="91" name="/mpu_ddr3/LCD_D23">
-      <node ref="P7" pin="12"/>
-      <node ref="U4" pin="130"/>
+    <net code="234" name="/mpu_ddr3/PIN32">
+      <node ref="P17" pin="20"/>
+      <node ref="U4" pin="121"/>
     </net>
-    <net code="92" name="/mpu_ddr3/LCD_D22">
+    <net code="235" name="/mpu_ddr3/LCD_D22">
       <node ref="P7" pin="11"/>
       <node ref="U4" pin="131"/>
     </net>
-    <net code="93" name="/mpu_ddr3/LCD_D21">
-      <node ref="U4" pin="132"/>
+    <net code="236" name="/mpu_ddr3/LCD_D21">
       <node ref="P7" pin="10"/>
+      <node ref="U4" pin="132"/>
     </net>
-    <net code="94" name="/mpu_ddr3/LCD_D20">
-      <node ref="U4" pin="133"/>
-      <node ref="P7" pin="9"/>
+    <net code="237" name="/mpu_ddr3/SA3">
+      <node ref="U4" pin="65"/>
+      <node ref="RA5" pin="1"/>
     </net>
-    <net code="95" name="/mpu_ddr3/LCD_D19">
-      <node ref="P7" pin="8"/>
-      <node ref="U4" pin="134"/>
-    </net>
-    <net code="96" name="/mpu_ddr3/LCD_D18">
-      <node ref="P7" pin="7"/>
-      <node ref="P7" pin="5"/>
-      <node ref="U4" pin="135"/>
-    </net>
-    <net code="97" name="/mpu_ddr3/LCD_D15">
-      <node ref="U4" pin="136"/>
-      <node ref="P7" pin="20"/>
-    </net>
-    <net code="98" name="/mpu_ddr3/LCD_D14">
-      <node ref="U4" pin="137"/>
-      <node ref="P7" pin="19"/>
-    </net>
-    <net code="99" name="/mpu_ddr3/LCD_D12">
-      <node ref="P7" pin="17"/>
-      <node ref="U4" pin="139"/>
-    </net>
-    <net code="100" name="/mpu_ddr3/LCD_D11">
+    <net code="238" name="/mpu_ddr3/LCD_D11">
       <node ref="U4" pin="140"/>
       <node ref="P7" pin="16"/>
     </net>
-    <net code="101" name="/mpu_ddr3/LCD_D10">
-      <node ref="P7" pin="15"/>
-      <node ref="U4" pin="141"/>
-      <node ref="P7" pin="13"/>
+    <net code="239" name="/mpu_ddr3/LCD_D23">
+      <node ref="P7" pin="12"/>
+      <node ref="U4" pin="130"/>
     </net>
-    <net code="102" name="/mpu_ddr3/LCD_D7">
-      <node ref="U4" pin="143"/>
-      <node ref="P7" pin="28"/>
-    </net>
-    <net code="103" name="/mpu_ddr3/LCD_D6">
-      <node ref="P7" pin="27"/>
-      <node ref="U4" pin="144"/>
-    </net>
-    <net code="104" name="/mpu_ddr3/LCD_D5">
-      <node ref="U4" pin="145"/>
-      <node ref="P7" pin="26"/>
-    </net>
-    <net code="105" name="/mpu_ddr3/LCD_D4">
-      <node ref="P7" pin="25"/>
-      <node ref="U4" pin="146"/>
-    </net>
-    <net code="106" name="/mpu_ddr3/LCD_D3">
-      <node ref="P7" pin="24"/>
-      <node ref="U4" pin="147"/>
-    </net>
-    <net code="107" name="/mpu_ddr3/LCD_D2">
-      <node ref="U4" pin="148"/>
-      <node ref="P7" pin="21"/>
-      <node ref="P7" pin="23"/>
-    </net>
-    <net code="108" name="/mpu_ddr3/PIN8">
-      <node ref="P7" pin="34"/>
-      <node ref="U4" pin="104"/>
-    </net>
-    <net code="109" name="Net-(U4-Pad76)">
-      <node ref="U4" pin="76"/>
-    </net>
-    <net code="110" name="Net-(U4-Pad77)">
-      <node ref="U4" pin="77"/>
-    </net>
-    <net code="111" name="Net-(U4-Pad96)">
-      <node ref="U4" pin="96"/>
-    </net>
-    <net code="112" name="Net-(U4-Pad86)">
-      <node ref="U4" pin="86"/>
-    </net>
-    <net code="113" name="Net-(U4-Pad95)">
-      <node ref="U4" pin="95"/>
-    </net>
-    <net code="114" name="Net-(U4-Pad85)">
-      <node ref="U4" pin="85"/>
-    </net>
-    <net code="115" name="Net-(U4-Pad75)">
-      <node ref="U4" pin="75"/>
-    </net>
-    <net code="116" name="Net-(U4-Pad99)">
+    <net code="240" name="Net-(U4-Pad99)">
       <node ref="U4" pin="99"/>
     </net>
-    <net code="117" name="Net-(U4-Pad121)">
-      <node ref="U4" pin="121"/>
-    </net>
-    <net code="118" name="Net-(U4-Pad170)">
-      <node ref="U4" pin="170"/>
-    </net>
-    <net code="119" name="Net-(U4-Pad160)">
-      <node ref="U4" pin="160"/>
-    </net>
-    <net code="120" name="Net-(U4-Pad120)">
-      <node ref="U4" pin="120"/>
-    </net>
-    <net code="121" name="Net-(U4-Pad78)">
-      <node ref="U4" pin="78"/>
-    </net>
-    <net code="122" name="Net-(U4-Pad12)">
-      <node ref="U4" pin="12"/>
-    </net>
-    <net code="123" name="Net-(U4-Pad10)">
-      <node ref="U4" pin="10"/>
-    </net>
-    <net code="124" name="Net-(U4-Pad8)">
-      <node ref="U4" pin="8"/>
-    </net>
-    <net code="125" name="Net-(U4-Pad7)">
-      <node ref="U4" pin="7"/>
-    </net>
-    <net code="126" name="Net-(U4-Pad6)">
-      <node ref="U4" pin="6"/>
-    </net>
-    <net code="127" name="Net-(U4-Pad3)">
-      <node ref="U4" pin="3"/>
-    </net>
-    <net code="128" name="Net-(U4-Pad2)">
-      <node ref="U4" pin="2"/>
-    </net>
-    <net code="129" name="Net-(U4-Pad1)">
-      <node ref="U4" pin="1"/>
-    </net>
-    <net code="130" name="Net-(U4-Pad15)">
-      <node ref="U4" pin="15"/>
-    </net>
-    <net code="131" name="Net-(U4-Pad94)">
-      <node ref="U4" pin="94"/>
-    </net>
-    <net code="132" name="Net-(U4-Pad84)">
-      <node ref="U4" pin="84"/>
-    </net>
-    <net code="133" name="Net-(U4-Pad74)">
-      <node ref="U4" pin="74"/>
-    </net>
-    <net code="134" name="Net-(U4-Pad14)">
-      <node ref="U4" pin="14"/>
-    </net>
-    <net code="135" name="Net-(U4-Pad93)">
-      <node ref="U4" pin="93"/>
-    </net>
-    <net code="136" name="Net-(U4-Pad13)">
-      <node ref="U4" pin="13"/>
-    </net>
-    <net code="137" name="Net-(U4-Pad119)">
-      <node ref="U4" pin="119"/>
-    </net>
-    <net code="138" name="Net-(U4-Pad168)">
-      <node ref="U4" pin="168"/>
-    </net>
-    <net code="139" name="Net-(U4-Pad105)">
-      <node ref="U4" pin="105"/>
-    </net>
-    <net code="140" name="Net-(U4-Pad174)">
-      <node ref="U4" pin="174"/>
-    </net>
-    <net code="141" name="Net-(U4-Pad154)">
-      <node ref="U4" pin="154"/>
-    </net>
-    <net code="142" name="Net-(U4-Pad124)">
-      <node ref="U4" pin="124"/>
-    </net>
-    <net code="143" name="Net-(U4-Pad114)">
-      <node ref="U4" pin="114"/>
-    </net>
-    <net code="144" name="Net-(U4-Pad153)">
-      <node ref="U4" pin="153"/>
-    </net>
-    <net code="145" name="Net-(U4-Pad115)">
-      <node ref="U4" pin="115"/>
-    </net>
-    <net code="146" name="Net-(U4-Pad123)">
-      <node ref="U4" pin="123"/>
-    </net>
-    <net code="147" name="Net-(U4-Pad172)">
-      <node ref="U4" pin="172"/>
-    </net>
-    <net code="148" name="Net-(U4-Pad162)">
-      <node ref="U4" pin="162"/>
-    </net>
-    <net code="149" name="Net-(U4-Pad122)">
-      <node ref="U4" pin="122"/>
-    </net>
-    <net code="150" name="Net-(U4-Pad171)">
-      <node ref="U4" pin="171"/>
-    </net>
-    <net code="151" name="Net-(U4-Pad161)">
-      <node ref="U4" pin="161"/>
-    </net>
-    <net code="152" name="Net-(U4-Pad176)">
-      <node ref="U4" pin="176"/>
-    </net>
-    <net code="153" name="Net-(U4-Pad118)">
-      <node ref="U4" pin="118"/>
-    </net>
-    <net code="154" name="Net-(U4-Pad167)">
-      <node ref="U4" pin="167"/>
-    </net>
-    <net code="155" name="Net-(U4-Pad117)">
-      <node ref="U4" pin="117"/>
-    </net>
-    <net code="156" name="Net-(U4-Pad166)">
-      <node ref="U4" pin="166"/>
-    </net>
-    <net code="157" name="Net-(U4-Pad116)">
-      <node ref="U4" pin="116"/>
-    </net>
-    <net code="158" name="Net-(U4-Pad106)">
-      <node ref="U4" pin="106"/>
-    </net>
-    <net code="159" name="Net-(U4-Pad175)">
-      <node ref="U4" pin="175"/>
-    </net>
-    <net code="160" name="Net-(U4-Pad165)">
-      <node ref="U4" pin="165"/>
-    </net>
-    <net code="161" name="Net-(U4-Pad125)">
-      <node ref="U4" pin="125"/>
-    </net>
-    <net code="162" name="/mpu_ddr3/D12">
-      <node ref="RP1" pin="8"/>
-      <node ref="U5" pin="A7"/>
-    </net>
-    <net code="163" name="/mpu_ddr3/D14">
-      <node ref="U5" pin="B8"/>
-      <node ref="RP1" pin="6"/>
-    </net>
-    <net code="164" name="/mpu_ddr3/D10">
-      <node ref="U5" pin="C8"/>
-      <node ref="RP1" pin="5"/>
-    </net>
-    <net code="165" name="/mpu_ddr3/D8">
-      <node ref="RP1" pin="7"/>
-      <node ref="U5" pin="D7"/>
-    </net>
-    <net code="166" name="/mpu_ddr3/SD8">
-      <node ref="RP1" pin="2"/>
-      <node ref="U4" pin="37"/>
-    </net>
-    <net code="167" name="/mpu_ddr3/SD0">
-      <node ref="U4" pin="22"/>
-      <node ref="RP2" pin="8"/>
-    </net>
-    <net code="168" name="/mpu_ddr3/SD2">
-      <node ref="U4" pin="21"/>
-      <node ref="RP2" pin="7"/>
-    </net>
-    <net code="169" name="/mpu_ddr3/SD6">
-      <node ref="RP2" pin="6"/>
-      <node ref="U4" pin="20"/>
-    </net>
-    <net code="170" name="/mpu_ddr3/SD4">
-      <node ref="RP2" pin="5"/>
-      <node ref="U4" pin="19"/>
-    </net>
-    <net code="171" name="/mpu_ddr3/D2">
-      <node ref="U5" pin="F2"/>
-      <node ref="RP2" pin="2"/>
-    </net>
-    <net code="172" name="/mpu_ddr3/D6">
-      <node ref="RP2" pin="3"/>
-      <node ref="U5" pin="G2"/>
-    </net>
-    <net code="173" name="/mpu_ddr3/D4">
-      <node ref="U5" pin="H3"/>
-      <node ref="RP2" pin="4"/>
-    </net>
-    <net code="174" name="/mpu_ddr3/SCKN">
-      <node ref="U4" pin="46"/>
-      <node ref="R28" pin="1"/>
-    </net>
-    <net code="175" name="/mpu_ddr3/SCK">
-      <node ref="U4" pin="45"/>
-      <node ref="R27" pin="1"/>
-    </net>
-    <net code="176" name="/mpu_ddr3/SD1">
-      <node ref="RP3" pin="1"/>
-      <node ref="U4" pin="40"/>
-    </net>
-    <net code="177" name="/mpu_ddr3/SD9">
-      <node ref="RP4" pin="2"/>
-      <node ref="U4" pin="25"/>
-    </net>
-    <net code="178" name="/mpu_ddr3/SD11">
-      <node ref="RP4" pin="1"/>
-      <node ref="U4" pin="24"/>
-    </net>
-    <net code="179" name="/mpu_ddr3/SD13">
-      <node ref="U4" pin="26"/>
-      <node ref="RP4" pin="3"/>
-    </net>
-    <net code="180" name="/mpu_ddr3/SD15">
-      <node ref="RP4" pin="4"/>
-      <node ref="U4" pin="27"/>
-    </net>
-    <net code="181" name="/mpu_ddr3/D9">
-      <node ref="U5" pin="C3"/>
-      <node ref="RP4" pin="7"/>
-    </net>
-    <net code="182" name="/mpu_ddr3/D11">
-      <node ref="RP4" pin="8"/>
-      <node ref="U5" pin="C2"/>
-    </net>
-    <net code="183" name="/mpu_ddr3/D15">
-      <node ref="RP4" pin="5"/>
-      <node ref="U5" pin="A3"/>
-    </net>
-    <net code="184" name="/mpu_ddr3/D13">
-      <node ref="U5" pin="A2"/>
-      <node ref="RP4" pin="6"/>
-    </net>
-    <net code="185" name="/mpu_ddr3/SD12">
-      <node ref="U4" pin="36"/>
-      <node ref="RP1" pin="1"/>
-    </net>
-    <net code="186" name="/mpu_ddr3/SD14">
-      <node ref="RP1" pin="3"/>
-      <node ref="U4" pin="38"/>
-    </net>
-    <net code="187" name="/mpu_ddr3/SD10">
-      <node ref="U4" pin="39"/>
-      <node ref="RP1" pin="4"/>
-    </net>
-    <net code="188" name="/mpu_ddr3/SA8">
-      <node ref="U4" pin="55"/>
-      <node ref="RP8" pin="4"/>
-    </net>
-    <net code="189" name="/mpu_ddr3/RESET">
-      <node ref="U5" pin="T2"/>
-      <node ref="RP7" pin="7"/>
-    </net>
-    <net code="190" name="/mpu_ddr3/A7">
-      <node ref="RP7" pin="6"/>
-      <node ref="U5" pin="R2"/>
-    </net>
-    <net code="191" name="/mpu_ddr3/ODT">
-      <node ref="U5" pin="K1"/>
-      <node ref="RP7" pin="5"/>
-    </net>
-    <net code="192" name="/mpu_ddr3/SA11">
-      <node ref="U4" pin="56"/>
-      <node ref="RP10" pin="1"/>
-    </net>
-    <net code="193" name="/mpu_ddr3/SA14">
-      <node ref="U4" pin="57"/>
-      <node ref="RP10" pin="2"/>
-    </net>
-    <net code="194" name="/mpu_ddr3/SRAS">
-      <node ref="U4" pin="58"/>
-      <node ref="RP10" pin="3"/>
-    </net>
-    <net code="195" name="/mpu_ddr3/SCAS">
-      <node ref="U4" pin="59"/>
-      <node ref="RP10" pin="4"/>
-    </net>
-    <net code="196" name="/mpu_ddr3/A11">
-      <node ref="RP10" pin="8"/>
-      <node ref="U5" pin="R7"/>
-    </net>
-    <net code="197" name="/mpu_ddr3/RAS">
-      <node ref="U5" pin="J3"/>
-      <node ref="RP10" pin="6"/>
-    </net>
-    <net code="198" name="/mpu_ddr3/CAS">
-      <node ref="U5" pin="K3"/>
-      <node ref="RP10" pin="5"/>
-    </net>
-    <net code="199" name="/mpu_ddr3/SA4">
-      <node ref="U4" pin="51"/>
-      <node ref="RP8" pin="1"/>
-    </net>
-    <net code="200" name="/mpu_ddr3/SA1">
-      <node ref="RP8" pin="2"/>
-      <node ref="U4" pin="52"/>
-    </net>
-    <net code="201" name="/mpu_ddr3/SA6">
-      <node ref="RP8" pin="3"/>
-      <node ref="U4" pin="54"/>
-    </net>
-    <net code="202" name="/mpu_ddr3/A9">
-      <node ref="U5" pin="R3"/>
-      <node ref="RP7" pin="8"/>
-    </net>
-    <net code="203" name="/mpu_ddr3/A4">
-      <node ref="RP8" pin="8"/>
-      <node ref="U5" pin="P8"/>
-    </net>
-    <net code="204" name="/mpu_ddr3/A1">
-      <node ref="RP8" pin="7"/>
-      <node ref="U5" pin="P7"/>
-    </net>
-    <net code="205" name="/mpu_ddr3/A6">
-      <node ref="RP8" pin="6"/>
-      <node ref="U5" pin="R8"/>
-    </net>
-    <net code="206" name="/mpu_ddr3/A8">
-      <node ref="RP8" pin="5"/>
-      <node ref="U5" pin="T8"/>
-    </net>
-    <net code="207" name="/mpu_ddr3/SCKE">
-      <node ref="RP9" pin="1"/>
-      <node ref="U4" pin="47"/>
-    </net>
-    <net code="208" name="/mpu_ddr3/SA10">
-      <node ref="U4" pin="48"/>
-      <node ref="RP9" pin="2"/>
-    </net>
-    <net code="209" name="/mpu_ddr3/SBA1">
-      <node ref="RP9" pin="3"/>
-      <node ref="U4" pin="49"/>
-    </net>
-    <net code="210" name="/mpu_ddr3/SA12">
-      <node ref="RP9" pin="4"/>
-      <node ref="U4" pin="50"/>
-    </net>
-    <net code="211" name="/mpu_ddr3/CKE">
-      <node ref="RP9" pin="8"/>
-      <node ref="U5" pin="K9"/>
-    </net>
-    <net code="212" name="/mpu_ddr3/A10">
-      <node ref="RP9" pin="7"/>
-      <node ref="U5" pin="L7"/>
-    </net>
-    <net code="213" name="/mpu_ddr3/BA1">
-      <node ref="RP9" pin="6"/>
-      <node ref="U5" pin="N8"/>
-    </net>
-    <net code="214" name="/mpu_ddr3/A12">
-      <node ref="RP9" pin="5"/>
-      <node ref="U5" pin="N7"/>
-    </net>
-    <net code="215" name="/mpu_ddr3/A5">
-      <node ref="RP5" pin="6"/>
-      <node ref="U5" pin="P2"/>
-    </net>
-    <net code="216" name="/mpu_ddr3/SD3">
-      <node ref="U4" pin="41"/>
-      <node ref="RP3" pin="2"/>
-    </net>
-    <net code="217" name="/mpu_ddr3/SD7">
-      <node ref="RP3" pin="3"/>
-      <node ref="U4" pin="42"/>
-    </net>
-    <net code="218" name="/mpu_ddr3/SD5">
-      <node ref="RP3" pin="4"/>
-      <node ref="U4" pin="44"/>
-    </net>
-    <net code="219" name="/mpu_ddr3/D1">
-      <node ref="U5" pin="F7"/>
-      <node ref="RP3" pin="8"/>
-    </net>
-    <net code="220" name="/mpu_ddr3/D3">
-      <node ref="RP3" pin="7"/>
-      <node ref="U5" pin="F8"/>
-    </net>
-    <net code="221" name="/mpu_ddr3/D7">
-      <node ref="U5" pin="H7"/>
-      <node ref="RP3" pin="6"/>
-    </net>
-    <net code="222" name="/mpu_ddr3/D5">
-      <node ref="U5" pin="H8"/>
-      <node ref="RP3" pin="5"/>
-    </net>
-    <net code="223" name="/mpu_ddr3/SA3">
-      <node ref="RP5" pin="1"/>
-      <node ref="U4" pin="65"/>
-    </net>
-    <net code="224" name="/mpu_ddr3/SA2">
-      <node ref="RP5" pin="2"/>
-      <node ref="U4" pin="66"/>
-    </net>
-    <net code="225" name="/mpu_ddr3/SA5">
-      <node ref="RP5" pin="3"/>
-      <node ref="U4" pin="67"/>
-    </net>
-    <net code="226" name="/mpu_ddr3/SA13">
-      <node ref="U4" pin="68"/>
-      <node ref="RP5" pin="4"/>
-    </net>
-    <net code="227" name="/mpu_ddr3/A3">
-      <node ref="RP5" pin="8"/>
-      <node ref="U5" pin="N2"/>
-    </net>
-    <net code="228" name="/mpu_ddr3/A2">
-      <node ref="U5" pin="P3"/>
-      <node ref="RP5" pin="7"/>
-    </net>
-    <net code="229" name="/mpu_ddr3/A13">
-      <node ref="U5" pin="T3"/>
-      <node ref="RP5" pin="5"/>
-    </net>
-    <net code="230" name="/mpu_ddr3/SWE">
-      <node ref="U4" pin="60"/>
-      <node ref="RP6" pin="1"/>
-    </net>
-    <net code="231" name="/mpu_ddr3/SBA2">
-      <node ref="RP6" pin="2"/>
-      <node ref="U4" pin="61"/>
-    </net>
-    <net code="232" name="/mpu_ddr3/SBA0">
-      <node ref="U4" pin="63"/>
-      <node ref="RP6" pin="3"/>
-    </net>
-    <net code="233" name="/mpu_ddr3/SA0">
-      <node ref="RP6" pin="4"/>
-      <node ref="U4" pin="64"/>
-    </net>
-    <net code="234" name="/mpu_ddr3/WE">
-      <node ref="RP6" pin="8"/>
-      <node ref="U5" pin="L3"/>
-    </net>
-    <net code="235" name="/mpu_ddr3/BA2">
-      <node ref="RP6" pin="7"/>
-      <node ref="U5" pin="M3"/>
-    </net>
-    <net code="236" name="/mpu_ddr3/BA0">
-      <node ref="U5" pin="M2"/>
-      <node ref="RP6" pin="6"/>
-    </net>
-    <net code="237" name="/mpu_ddr3/A0">
-      <node ref="U5" pin="N3"/>
-      <node ref="RP6" pin="5"/>
-    </net>
-    <net code="238" name="/mpu_ddr3/SA9">
-      <node ref="RP7" pin="1"/>
+    <net code="241" name="/mpu_ddr3/SA9">
+      <node ref="RA7" pin="1"/>
       <node ref="U4" pin="69"/>
     </net>
-    <net code="239" name="/mpu_ddr3/SRESET">
-      <node ref="RP7" pin="2"/>
+    <net code="242" name="/mpu_ddr3/SCAS">
+      <node ref="RA10" pin="4"/>
+      <node ref="U4" pin="59"/>
+    </net>
+    <net code="243" name="/mpu_ddr3/SBA1">
+      <node ref="RA9" pin="3"/>
+      <node ref="U4" pin="49"/>
+    </net>
+    <net code="244" name="/mpu_ddr3/SD2">
+      <node ref="U4" pin="21"/>
+      <node ref="RA2" pin="7"/>
+    </net>
+    <net code="245" name="/mpu_ddr3/SD1">
+      <node ref="RA3" pin="1"/>
+      <node ref="U4" pin="40"/>
+    </net>
+    <net code="246" name="/mpu_ddr3/SA12">
+      <node ref="RA9" pin="4"/>
+      <node ref="U4" pin="50"/>
+    </net>
+    <net code="247" name="/mpu_ddr3/SWE">
+      <node ref="RA6" pin="1"/>
+      <node ref="U4" pin="60"/>
+    </net>
+    <net code="248" name="/mpu_ddr3/SRESET">
       <node ref="U4" pin="70"/>
+      <node ref="RA7" pin="2"/>
     </net>
-    <net code="240" name="/mpu_ddr3/SA7">
+    <net code="249" name="/mpu_ddr3/SD6">
+      <node ref="U4" pin="20"/>
+      <node ref="RA2" pin="6"/>
+    </net>
+    <net code="250" name="/mpu_ddr3/SD3">
+      <node ref="U4" pin="41"/>
+      <node ref="RA3" pin="2"/>
+    </net>
+    <net code="251" name="/mpu_ddr3/SA4">
+      <node ref="RA8" pin="1"/>
+      <node ref="U4" pin="51"/>
+    </net>
+    <net code="252" name="/mpu_ddr3/SBA2">
+      <node ref="RA6" pin="2"/>
+      <node ref="U4" pin="61"/>
+    </net>
+    <net code="253" name="/mpu_ddr3/SA7">
+      <node ref="RA7" pin="3"/>
       <node ref="U4" pin="71"/>
-      <node ref="RP7" pin="3"/>
     </net>
-    <net code="241" name="/mpu_ddr3/SODT">
-      <node ref="RP7" pin="4"/>
+    <net code="254" name="/mpu_ddr3/SA11">
+      <node ref="RA10" pin="1"/>
+      <node ref="U4" pin="56"/>
+    </net>
+    <net code="255" name="/mpu_ddr3/SA14">
+      <node ref="U4" pin="57"/>
+      <node ref="RA10" pin="2"/>
+    </net>
+    <net code="256" name="/mpu_ddr3/SA8">
+      <node ref="U4" pin="55"/>
+      <node ref="RA8" pin="4"/>
+    </net>
+    <net code="257" name="/mpu_ddr3/SD9">
+      <node ref="RA4" pin="2"/>
+      <node ref="U4" pin="25"/>
+    </net>
+    <net code="258" name="/mpu_ddr3/SA0">
+      <node ref="RA6" pin="4"/>
+      <node ref="U4" pin="64"/>
+    </net>
+    <net code="259" name="/mpu_ddr3/SA6">
+      <node ref="U4" pin="54"/>
+      <node ref="RA8" pin="3"/>
+    </net>
+    <net code="260" name="/mpu_ddr3/SD5">
+      <node ref="RA3" pin="4"/>
+      <node ref="U4" pin="44"/>
+    </net>
+    <net code="261" name="/mpu_ddr3/SD11">
+      <node ref="U4" pin="24"/>
+      <node ref="RA4" pin="1"/>
+    </net>
+    <net code="262" name="/mpu_ddr3/SBA0">
+      <node ref="RA6" pin="3"/>
+      <node ref="U4" pin="63"/>
+    </net>
+    <net code="263" name="/mpu_ddr3/SODT">
       <node ref="U4" pin="72"/>
+      <node ref="RA7" pin="4"/>
     </net>
-    <net code="242" name="Net-(U5-PadL1)">
-      <node ref="U5" pin="L1"/>
+    <net code="264" name="/mpu_ddr3/SA1">
+      <node ref="RA8" pin="2"/>
+      <node ref="U4" pin="52"/>
     </net>
-    <net code="243" name="Net-(U5-PadJ1)">
-      <node ref="U5" pin="J1"/>
+    <net code="265" name="/mpu_ddr3/SD7">
+      <node ref="U4" pin="42"/>
+      <node ref="RA3" pin="3"/>
     </net>
-    <net code="244" name="/mpu_ddr3/SDQS1N">
-      <node ref="U4" pin="34"/>
-      <node ref="R34" pin="1"/>
+    <net code="266" name="/mpu_ddr3/SD0">
+      <node ref="RA2" pin="8"/>
+      <node ref="U4" pin="22"/>
     </net>
-    <net code="245" name="/mpu_ddr3/SDQS1">
-      <node ref="U4" pin="33"/>
-      <node ref="R33" pin="1"/>
-    </net>
-    <net code="246" name="/mpu_ddr3/SDQS0N">
-      <node ref="U4" pin="32"/>
-      <node ref="R32" pin="1"/>
-    </net>
-    <net code="247" name="/mpu_ddr3/SDQS0">
-      <node ref="R31" pin="1"/>
-      <node ref="U4" pin="31"/>
-    </net>
-    <net code="248" name="/mpu_ddr3/SDM1">
-      <node ref="U4" pin="28"/>
-      <node ref="R29" pin="1"/>
-    </net>
-    <net code="249" name="/mpu_ddr3/SDM0">
-      <node ref="U4" pin="29"/>
-      <node ref="R30" pin="1"/>
-    </net>
-    <net code="250" name="/mpu_ddr3/SDC0_SCK">
-      <node ref="J2" pin="5"/>
-      <node ref="P9" pin="2"/>
-      <node ref="U4" pin="110"/>
-    </net>
-    <net code="251" name="/mpu_ddr3/UBOOT">
-      <node ref="U4" pin="157"/>
-      <node ref="R73" pin="1"/>
-      <node ref="SW7" pin="2"/>
-    </net>
-    <net code="252" name="/mpu_ddr3/SVREF">
-      <node ref="R19" pin="2"/>
-      <node ref="U4" pin="18"/>
+    <net code="267" name="/mpu_ddr3/SVREF">
       <node ref="C66" pin="2"/>
+      <node ref="R19" pin="2"/>
       <node ref="R74" pin="1"/>
       <node ref="C80" pin="2"/>
       <node ref="C81" pin="1"/>
-    </net>
-    <net code="253" name="/mpu_ddr3/DQS1">
-      <node ref="U5" pin="C7"/>
-      <node ref="R33" pin="2"/>
-    </net>
-    <net code="254" name="/mpu_ddr3/DQS0N">
-      <node ref="R32" pin="2"/>
-      <node ref="U5" pin="G3"/>
-    </net>
-    <net code="255" name="/mpu_ddr3/DQS0">
-      <node ref="R31" pin="2"/>
-      <node ref="U5" pin="F3"/>
-    </net>
-    <net code="256" name="/mpu_ddr3/DM1">
-      <node ref="U5" pin="D3"/>
-      <node ref="R29" pin="2"/>
-    </net>
-    <net code="257" name="/mpu_ddr3/DM0">
-      <node ref="U5" pin="E7"/>
-      <node ref="R30" pin="2"/>
-    </net>
-    <net code="258" name="/mpu_ddr3/CKN">
-      <node ref="U5" pin="K7"/>
-      <node ref="R28" pin="2"/>
-    </net>
-    <net code="259" name="/mpu_ddr3/CK">
-      <node ref="U5" pin="J7"/>
-      <node ref="R27" pin="2"/>
+      <node ref="U4" pin="18"/>
     </net>
   </nets>
 </export>
