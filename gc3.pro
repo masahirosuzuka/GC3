@@ -1,4 +1,4 @@
-update=2016/04/02 15:57:32
+update=2016/05/04 23:06:17
 version=1
 last_client=kicad
 [cvpcb]
@@ -26,8 +26,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -88,3 +86,5 @@ LibName43=tps2552
 LibName44=crystall
 LibName45=resistorarray
 LibName46=C:/Users/Masahiro/work/blueninja/blueninja
+[general]
+version=1
