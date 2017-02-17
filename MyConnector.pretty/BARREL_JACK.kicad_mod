@@ -1,0 +1,17 @@
+(module BARREL_JACK (layer F.Cu) (tedit 58A3EFCF)
+  (descr "DC Barrel Jack")
+  (tags "Power Jack")
+  (fp_text reference J1 (at 8.64 -2.61) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.7) (thickness 0.15)))
+  )
+  (fp_text value JACK (at -2.37 0.04 90) (layer F.Fab) hide
+    (effects (font (size 0.8 0.7) (thickness 0.15)))
+  )
+  (fp_line (start 7 4.51) (end -4 4.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start -4 -4.51) (end 7 -4.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start -4.0005 -4.50088) (end -4.0005 4.50088) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.00024 4.50088) (end 7.00024 -4.50088) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole rect (at 6.20014 0) (size 3.50012 3.50012) (drill oval 1.00076 2.99974) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole rect (at 0.20066 0) (size 3.50012 3.50012) (drill oval 1.00076 2.99974) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole rect (at 3.2004 4.699) (size 3.50012 3.50012) (drill oval 2.99974 1.00076) (layers *.Cu *.Mask F.SilkS))
+)
